@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.min.css?_v=20230120151208">
+   <title>For Doctors - Skin Health AI-Tracker</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+	<div id="header-wrapper" class="header__wrapper lock-padding">
+		<div class="n_container header-container">
+			<div class="header__wrap-logo">
+				<a href="/">
+					<picture><source srcset="images/logo-header.webp" type="image/webp"><img src="images/logo-header.png" alt="Skin Health AI-Tracker"></picture>
+				</a>
+			</div>
+			<div class="header__menu menu">
+				<nav class="menu__body">
+					<div class="menu-topmenu-container">
+						<ul id="primary-menu" class="menu__list">
+							<li class="menu-item">
+								<a class="menu__link" href="#">For Patients</a>
+							</li>
+							<li class="menu-item">
+								<a class="menu__link" href="#">For Specialists</a>
+							</li>
+							<!--- menu-item-has-children current-menu-item current_page_item -->
+							<li class="menu-item">
+								<a class="menu__link" href="#">Skinive Blog</a>
+								<span class="menu__arrow">
+									<svg width="12" height="7" viewBox="0 0 12 7" fill="none">
+										<path
+											d="M1.53033 0.46967C1.23744 0.176777 0.762563 0.176777 0.46967 0.46967C0.176777 0.762563 0.176777 1.23744 0.46967 1.53033L1.53033 0.46967ZM6 6L5.46967 6.53033C5.76256 6.82322 6.23744 6.82322 6.53033 6.53033L6 6ZM11.5303 1.53033C11.8232 1.23744 11.8232 0.762563 11.5303 0.46967C11.2374 0.176777 10.7626 0.176777 10.4697 0.46967L11.5303 1.53033ZM0.46967 1.53033L5.46967 6.53033L6.53033 5.46967L1.53033 0.46967L0.46967 1.53033ZM6.53033 6.53033L11.5303 1.53033L10.4697 0.46967L5.46967 5.46967L6.53033 6.53033Z"
+											fill="currentColor" />
+									</svg>
+								</span>
+								<ul class="menu__sub-list">
+									<li class="menu-item">
+										<a class="menu__link" href="#">Sub link 1</a>
+									</li>
+									<li class="menu-item current-menu-item current_page_item">
+										<a class="menu__link" href="#">Sub link 2</a>
+									</li>
+									<li class="menu-item">
+										<a class="menu__link" href="#">Sub link 3</a>
+									</li>
+									<li class="menu-item">
+										<a class="menu__link" href="#">Sub link 4</a>
+									</li>
+								</ul>
+							</li>
+							<!--- current-menu-item current_page_item -->
+							<li class="menu-item">
+								<a class="menu__link" href="#">Support</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+				<div class="header__wrap-button-icons">
+					<ul class="header__social-icons icons-deley">
+						<li class="header__social-icon hidden-link" data-url="#">
+							<svg viewBox="0 0 51 54" fill="none">
+								<g filter="url(#filter0_d_6169_984)">
+									<path
+										d="M36 15.2889V11.0996C34.0604 11.0996 32.5802 10.5759 31.625 9.55808C30.6446 8.39647 30.0954 6.92542 30.0719 5.39828V5.09588L26.1563 5V22.0154C26.0219 22.7578 25.6657 23.4406 25.1355 23.9717C24.6054 24.5028 23.9269 24.8565 23.1917 24.9853C22.4565 25.114 21.6999 25.0114 21.0242 24.6914C20.3484 24.3714 19.786 23.8494 19.4129 23.1958C19.0397 22.5423 18.8738 21.7887 18.9375 21.0367C19.0012 20.2847 19.2914 19.5706 19.769 18.9908C20.2467 18.411 20.8887 17.9934 21.6084 17.7943C22.3281 17.5953 23.0909 17.6244 23.7938 17.8777V13.8211C23.384 13.7532 22.9694 13.7187 22.5542 13.7179C21.0601 13.7179 19.5996 14.166 18.3573 15.0056C17.115 15.8452 16.1468 17.0386 15.575 18.4348C15.0033 19.8311 14.8537 21.3674 15.1452 22.8496C15.4366 24.3319 16.1561 25.6934 17.2126 26.762C18.269 27.8306 19.6151 28.5583 21.0804 28.8532C22.5458 29.148 24.0647 28.9967 25.445 28.4184C26.8254 27.84 28.0052 26.8606 28.8352 25.6041C29.6653 24.3475 30.1083 22.8702 30.1083 21.3589C30.1075 21.0458 30.088 20.733 30.05 20.4222V13.6736C31.8305 14.7984 33.902 15.3607 36 15.2889Z"
+										fill="currentColor" />
+								</g>
+								<defs>
+									<filter id="filter0_d_6169_984" x="0" y="0" width="51" height="54"
+										filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+										<feFlood flood-opacity="0" result="BackgroundImageFix" />
+										<feColorMatrix in="SourceAlpha" type="matrix"
+											values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+										<feOffset dy="10" />
+										<feGaussianBlur stdDeviation="7.5" />
+										<feComposite in2="hardAlpha" operator="out" />
+										<feColorMatrix type="matrix"
+											values="0 0 0 0 1 0 0 0 0 0.470937 0 0 0 0 0.233333 0 0 0 0.25 0" />
+										<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_6169_984" />
+										<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_6169_984"
+											result="shape" />
+									</filter>
+								</defs>
+							</svg>
+						</li>
+						<li class="header__social-icon hidden-link" data-url="https://www.linkedin.com/">
+							<svg viewBox="0 0 54 53" fill="none">
+								<g filter="url(#filter0_d_6169_983)">
+									<path
+										d="M15 7.67172C15 6.89729 15.2703 6.2584 15.8108 5.75505C16.3513 5.25168 17.0541 5 17.9189 5C18.7683 5 19.4556 5.2478 19.9807 5.74343C20.5212 6.25455 20.7915 6.92052 20.7915 7.74141C20.7915 8.48485 20.529 9.10436 20.0039 9.6C19.4633 10.1111 18.7529 10.3667 17.8726 10.3667H17.8494C17 10.3667 16.3127 10.1111 15.7876 9.6C15.2625 9.08889 15 8.44612 15 7.67172ZM15.3012 28V12.4808H20.444V28H15.3012ZM23.2934 28H28.4363V19.3343C28.4363 18.7922 28.4981 18.3741 28.6216 18.0798C28.8378 17.5532 29.166 17.1079 29.6062 16.7439C30.0463 16.38 30.5984 16.198 31.2625 16.198C32.9923 16.198 33.8571 17.3673 33.8571 19.7061V28H39V19.102C39 16.8098 38.4595 15.0712 37.3784 13.8864C36.2973 12.7015 34.8687 12.1091 33.0927 12.1091C31.1004 12.1091 29.5483 12.9687 28.4363 14.6879V14.7343H28.4131L28.4363 14.6879V12.4808H23.2934C23.3243 12.9764 23.3398 14.5175 23.3398 17.104C23.3398 19.6906 23.3243 23.3225 23.2934 28Z"
+										fill="currentColor" />
+								</g>
+								<defs>
+									<filter id="filter0_d_6169_983" x="0" y="0" width="54" height="53"
+										filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+										<feFlood flood-opacity="0" result="BackgroundImageFix" />
+										<feColorMatrix in="SourceAlpha" type="matrix"
+											values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+										<feOffset dy="10" />
+										<feGaussianBlur stdDeviation="7.5" />
+										<feComposite in2="hardAlpha" operator="out" />
+										<feColorMatrix type="matrix"
+											values="0 0 0 0 1 0 0 0 0 0.470937 0 0 0 0 0.233333 0 0 0 0.25 0" />
+										<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_6169_983" />
+										<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_6169_983"
+											result="shape" />
+									</filter>
+								</defs>
+							</svg>
+						</li>
+						<li class="header__social-icon hidden-link" data-url="https://facebook.com/">
+							<svg viewBox="0 0 42 52" fill="none">
+								<g filter="url(#filter0_d_6169_980)">
+									<path
+										d="M26.2138 17.3748L26.8359 13.3933H22.9453V10.8102C22.9249 10.5053 22.9716 10.1995 23.0821 9.91569C23.1926 9.63184 23.364 9.37716 23.5836 9.17056C23.8031 8.96395 24.0652 8.81072 24.3504 8.72224C24.6356 8.63376 24.9365 8.61229 25.2309 8.65944H27V5.26885C25.9608 5.10409 24.9116 5.01425 23.8601 5C20.6549 5 18.5623 6.90654 18.5623 10.3592V13.3933H15V17.3748H18.5623V27H22.9453V17.3748H26.2138Z"
+										fill="currentColor" />
+								</g>
+								<defs>
+									<filter id="filter0_d_6169_980" x="0" y="0" width="42" height="52"
+										filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+										<feFlood flood-opacity="0" result="BackgroundImageFix" />
+										<feColorMatrix in="SourceAlpha" type="matrix"
+											values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+										<feOffset dy="10" />
+										<feGaussianBlur stdDeviation="7.5" />
+										<feComposite in2="hardAlpha" operator="out" />
+										<feColorMatrix type="matrix"
+											values="0 0 0 0 1 0 0 0 0 0.470937 0 0 0 0 0.233333 0 0 0 0.25 0" />
+										<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_6169_980" />
+										<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_6169_980"
+											result="shape" />
+									</filter>
+								</defs>
+							</svg>
+						</li>
+						<li class="header__social-icon hidden-link" data-url="https://www.instagram.com/">
+							<svg viewBox="0 0 52 52" fill="none">
+								<g filter="url(#filter0_d_6169_977)">
+									<path fill-rule="evenodd" clip-rule="evenodd"
+										d="M21.1875 5H30.8125C34.2245 5 37 7.77551 37 11.1875V20.8125C37 24.2245 34.2245 27 30.8125 27H21.1875C17.7755 27 15 24.2245 15 20.8125V11.1875C15 7.77551 17.7755 5 21.1875 5ZM20.5 16C20.5 19.0333 22.9673 21.5 26 21.5C29.0327 21.5 31.5 19.0333 31.5 16C31.5 12.9667 29.0327 10.5 26 10.5C22.9673 10.5 20.5 12.9667 20.5 16ZM31.5 9.8125C31.5 10.1922 31.8078 10.5 32.1875 10.5C32.5672 10.5 32.875 10.1922 32.875 9.8125C32.875 9.43275 32.5672 9.125 32.1875 9.125C31.8078 9.125 31.5 9.43275 31.5 9.8125ZM28.9168 18.9168C30.5277 17.3059 30.5277 14.6941 28.9168 13.0832C27.3059 11.4723 24.6941 11.4723 23.0832 13.0832C21.4723 14.6941 21.4723 17.3059 23.0832 18.9168C24.6941 20.5277 27.3059 20.5277 28.9168 18.9168Z"
+										fill="currentColor" />
+								</g>
+								<defs>
+									<filter id="filter0_d_6169_977" x="0" y="0" width="52" height="52"
+										filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+										<feFlood flood-opacity="0" result="BackgroundImageFix" />
+										<feColorMatrix in="SourceAlpha" type="matrix"
+											values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+										<feOffset dy="10" />
+										<feGaussianBlur stdDeviation="7.5" />
+										<feComposite in2="hardAlpha" operator="out" />
+										<feColorMatrix type="matrix"
+											values="0 0 0 0 1 0 0 0 0 0.470937 0 0 0 0 0.233333 0 0 0 0.25 0" />
+										<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_6169_977" />
+										<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_6169_977"
+											result="shape" />
+									</filter>
+								</defs>
+							</svg>
+						</li>
+						<li class="header__social-icon hidden-link" data-url="https://youtube.com/">
+							<svg viewBox="0 0 61 52" fill="none">
+								<g filter="url(#filter0_d_6169_981)">
+									<path
+										d="M39.811 5H20.7727C17.5614 5 15 7.59962 15 10.7727V21.0565C15 24.2677 17.5996 26.8291 20.7727 26.8291H39.811C43.0223 26.8291 45.5837 24.2295 45.5837 21.0565V10.7727C45.5837 7.59962 42.9841 5 39.811 5ZM27.0187 20.6359V11.2314L35.0469 15.9337L27.0187 20.6359Z"
+										fill="currentColor" />
+								</g>
+								<defs>
+									<filter id="filter0_d_6169_981" x="0" y="0" width="60.582" height="51.8291"
+										filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+										<feFlood flood-opacity="0" result="BackgroundImageFix" />
+										<feColorMatrix in="SourceAlpha" type="matrix"
+											values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+										<feOffset dy="10" />
+										<feGaussianBlur stdDeviation="7.5" />
+										<feComposite in2="hardAlpha" operator="out" />
+										<feColorMatrix type="matrix"
+											values="0 0 0 0 1 0 0 0 0 0.470937 0 0 0 0 0.233333 0 0 0 0.25 0" />
+										<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_6169_981" />
+										<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_6169_981"
+											result="shape" />
+									</filter>
+								</defs>
+							</svg>
+						</li>
+					</ul>
+					<a href="/get-skinive.html" class="header__button btn-deley">
+						<span class="dekstop">GET FREE APP</span>
+						<span class="mobile">GET STARTED</span>
+					</a>
+				</div>
+			</div>
+			<div class="menu__icon">
+				<span>Burger</span>
+			</div>
+		</div>
+	</div>
+</header>
+      <main class="main for-doctors-page">
+         <section class="first-screen">
+            <div class="n_container">
+               <div class="first-screen__items">
+                  <div class="first-screen__item fs-one-item">
+                     <h1 class="first-screen__title">Do smart skin analysis</h1>
+                     <p class="first-screen__text">Enhance your patient experience and grow your reimbursed</p>
+                     <div class="first-screen__wrap-buttons">
+                        <a href="/get-skinive.html" class="first-screen__button">GET STARTED</a>
+                        <p class="first-screen__watch-video">
+                           <button id="fp-fs-btn" class="first-screen__watch-video-circle">
+                              <svg width="12" height="14" viewBox="0 0 12 14" fill="none">
+                                 <path d="M12 7L3.01142e-07 13.9282L9.06825e-07 0.0717964L12 7Z" fill="white" />
+                              </svg>
+                           </button>
+                           WATCH VIDEO
+                        </p>
+                     </div>
+                     <div class="first-screen__blocks">
+                        <div class="first-screen__block">
+                           <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                              <path opacity="0.1"
+                                 d="M20 5C28.2842 5 35 11.7157 35 20C35 28.2841 28.2842 34.9999 20 34.9999C11.7157 34.9999 5 28.2841 5 20C5 11.7157 11.7157 5 20 5ZM20 8.75C13.7868 8.75 8.75 13.7868 8.75 20C8.75 26.2132 13.7868 31.2499 20 31.2499C26.2132 31.2499 31.25 26.2132 31.25 20C31.25 13.7868 26.2132 8.75 20 8.75ZM20 11.2502C24.8325 11.2502 28.75 15.1677 28.75 20.0002C28.75 24.8327 24.8325 28.7501 20 28.7501C15.1675 28.7501 11.25 24.8327 11.25 20.0002C11.25 15.1677 15.1675 11.2502 20 11.2502ZM20 15.0002C17.2386 15.0002 15 17.2388 15 20.0002C15 22.7617 17.2386 25.0001 20 25.0001C22.7614 25.0001 25 22.7617 25 20.0002C25 17.2388 22.7614 15.0002 20 15.0002Z"
+                                 fill="#504DE5" />
+                              <circle cx="19.9996" cy="20.0001" r="2.7027" fill="#504DE5" />
+                           </svg>
+                           <p class="first-screen__block-number">32+</p>
+                           <p class="first-screen__block-text">Speed-up practice</p>
+                        </div>
+                        <div class="first-screen__block">
+                           <p class="first-screen__block-number">700K</p>
+                           <p class="first-screen__block-text">Check-ups done</p>
+                        </div>
+                        <div class="first-screen__block">
+                           <p class="first-screen__block-number">50+</p>
+                           <p class="first-screen__block-text">Nosologies</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div data-da="fs-one-item, 2, 991" class="first-screen__item">
+                     <div class="first-screen__item-content">
+                        <div class="fs-slider__wrap-right">
+                           <div class="fs-slider__right">
+                              <div class="fs-slider__wrap-image">
+                                 <picture><source srcset="images/fs-slide-illustration.webp" type="image/webp"><img class="swiper-lazy" src="images/fs-slide-illustration.png" alt=""></picture>
+                              </div>
+                              <div class="fs-slider__block">
+                                 <h3 class="fs-slider__block-title">Acne & Rosacea</h3>
+                                 <div class="fs-slider__right-wrap-content">
+                                    <div class="fs-slider__right-wrap-icon">
+                                       <svg width="58" height="58" viewBox="0 0 58 58" fill="none">
+                                          <rect x="2" y="2" width="54" height="54" rx="16" fill="#5DC239"
+                                             stroke="#E2FBD9" stroke-width="4" />
+                                          <path
+                                             d="M18.6016 30.3004C18.6016 29.5824 19.1836 29.0004 19.9016 29.0004H22.5016C23.2195 29.0004 23.8016 29.5824 23.8016 30.3004V36.8004C23.8016 37.5184 23.2195 38.1004 22.5016 38.1004H19.9016C19.1836 38.1004 18.6016 37.5184 18.6016 36.8004V30.3004Z"
+                                             fill="white" />
+                                          <path
+                                             d="M26.4016 25.1004C26.4016 24.3824 26.9836 23.8004 27.7016 23.8004H30.3016C31.0195 23.8004 31.6016 24.3824 31.6016 25.1004V36.8004C31.6016 37.5184 31.0195 38.1004 30.3016 38.1004H27.7016C26.9836 38.1004 26.4016 37.5184 26.4016 36.8004V25.1004Z"
+                                             fill="white" />
+                                          <path
+                                             d="M34.2016 21.2004C34.2016 20.4824 34.7836 19.9004 35.5016 19.9004H38.1016C38.8195 19.9004 39.4016 20.4824 39.4016 21.2004V36.8004C39.4016 37.5184 38.8195 38.1004 38.1016 38.1004H35.5016C34.7836 38.1004 34.2016 37.5184 34.2016 36.8004V21.2004Z"
+                                             fill="white" />
+                                       </svg>
+                                    </div>
+                                    <div class="fs-slider__right-content">
+                                       <p class="fs-slider__right-content-number">96,3 <span>%</span></p>
+                                       <p class="fs-slider__right-content-text">
+                                          <span>Sensitivity</span>
+                                          <span>Precision level</span>
+                                       </p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <img class="first-screen__item-content-bg" src="images/svg/fs-bg-item-page-doctors.svg" alt="">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="for-doctors-skinivemd">
+            <div class="n_container">
+               <h2 class="for-doctors-skinivemd__title">How <span>SkiniveMD</span> can help your practice and business
+               </h2>
+               <div class="for-doctors-skinivemd__items">
+                  <div class="for-doctors-skinivemd__item">
+                     <div class="for-doctors-skinivemd__BlockImage">
+                        <picture><source srcset="images/for-doctors-skinivemd-image-1.webp" type="image/webp"><img src="images/for-doctors-skinivemd-image-1.jpg" alt=""></picture>
+                     </div>
+                     <div class="for-doctors-skinivemd__wrap-content">
+                        <h3>Maximise clinical efficiency, to make efficient use of your time</h3>
+                        <div class="for-doctors-skinivemd__BlockText">
+                           <p>Skinive allows GPs and nurses to take a clinical picture of a patient's whole body in just
+                              a few minutes and highlight potentially dangerous skin conditions using AI assessment.
+                              It's as simple and intuitive as taking pictures on a smartphone.</p>
+                        </div>
+                        <button type="button" class="for-doctors-skinivemd__read-more">Read more</button>
+                     </div>
+                  </div>
+                  <div class="for-doctors-skinivemd__item">
+                     <div class="for-doctors-skinivemd__BlockImage">
+                        <picture><source srcset="images/for-doctors-skinivemd-image-2.webp" type="image/webp"><img src="images/for-doctors-skinivemd-image-2.jpg" alt=""></picture>
+                     </div>
+                     <div class="for-doctors-skinivemd__wrap-content">
+                        <h3>Strengthen your <u>competitive advantage</u></h3>
+                        <div class="for-doctors-skinivemd__BlockText">
+                           <p>With Skinive MD you’ll be offering the most innovative standard of dermatological care —
+                              one that will set you apart from your competition and inspire discerning patients to trust
+                              you out.</p>
+                        </div>
+                        <button type="button" class="for-doctors-skinivemd__read-more">Read more</button>
+                     </div>
+                  </div>
+                  <div class="for-doctors-skinivemd__item">
+                     <div class="for-doctors-skinivemd__BlockImage">
+                        <picture><source srcset="images/for-doctors-skinivemd-image-3.webp" type="image/webp"><img src="images/for-doctors-skinivemd-image-3.jpg" alt=""></picture>
+                     </div>
+                     <div class="for-doctors-skinivemd__wrap-content">
+                        <h3>Deepen your relationship with your patients</h3>
+                        <div class="for-doctors-skinivemd__BlockText">
+                           <p>Each skin imaging session becomes part of a patient's digital skin health map, a living
+                              tool that educates and empowers patients to monitor their skin health between visits to
+                              your office and keeps them coming back to you.</p>
+                        </div>
+                        <button type="button" class="for-doctors-skinivemd__read-more">Read more</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="for-patients-self-exam">
+            <div class="for-patients-self-exam__items">
+               <div data-da="for-patients-self-exam_two_item, 2, 991"
+                  class="for-patients-self-exam__item for-patients-self-exam_one_item">
+                  <img src="images/svg/for-doctors-self-exam-illustration.svg" alt="">
+               </div>
+               <div class="for-patients-self-exam__item for-patients-self-exam_two_item">
+                  <h2 class="for-patients-self-exam__above-title">AI Teledermatology into your workflow</h2>
+                  <h2 class="for-patients-self-exam__title">Skin Analysis with AI in a 3 steps</h2>
+                  <div class="for-patients-self-exam__block">
+                     <div class="for-patients-self-exam__block-wrap-icon one">
+                        <svg width="73" height="73" viewBox="0 0 73 73" fill="none">
+                           <path
+                              d="M45.4456 14.8405C39.3888 12.3707 37.689 17.7779 32.4669 17.9278C26.5253 18.0984 22.787 9.28339 17.5955 14.8405C11.1062 21.787 25.4368 25.646 21.6513 27.4469C17.8658 29.2479 10.5653 30.277 13.81 38.767C17.0547 47.2571 25.1664 41.8543 25.4368 46.7425C25.7072 51.6307 18.9474 54.4607 24.0848 59.6062C29.2222 64.7517 35.1708 63.4653 41.3897 59.6062C47.6087 55.7471 43.2824 51.3734 50.3126 50.8589C57.3427 50.3443 64.3728 42.8834 59.2354 33.107C54.098 23.3306 50.8533 30.277 48.6902 25.646C46.5271 21.0151 53.0165 17.9278 45.4456 14.8405Z"
+                              fill="#C47A63" />
+                           <rect x="35.2188" y="30.7363" width="2.5614" height="11.5263" rx="1.2807" fill="#504DE5" />
+                           <rect x="42.2578" y="35.2188" width="2.5614" height="11.5263" rx="1.2807"
+                              transform="rotate(90 42.2578 35.2188)" fill="#504DE5" />
+                           <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M0 1.2807C0 0.57339 0.57339 0 1.2807 0H12.807C13.5143 0 14.0877 0.57339 14.0877 1.2807C14.0877 1.98801 13.5143 2.5614 12.807 2.5614H2.5614V12.807C2.5614 13.5143 1.98801 14.0877 1.2807 14.0877C0.57339 14.0877 0 13.5143 0 12.807V1.2807Z"
+                              fill="#504DE5" />
+                           <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M73 1.2807C73 0.57339 72.4266 0 71.7193 0H60.193C59.4857 0 58.9123 0.57339 58.9123 1.2807C58.9123 1.98801 59.4857 2.5614 60.193 2.5614H70.4386V12.807C70.4386 13.5143 71.012 14.0877 71.7193 14.0877C72.4266 14.0877 73 13.5143 73 12.807V1.2807Z"
+                              fill="#504DE5" />
+                           <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M0 71.7193C0 72.4266 0.57339 73 1.2807 73H12.807C13.5143 73 14.0877 72.4266 14.0877 71.7193C14.0877 71.012 13.5143 70.4386 12.807 70.4386H2.5614V60.193C2.5614 59.4857 1.98801 58.9123 1.2807 58.9123C0.57339 58.9123 0 59.4857 0 60.193V71.7193Z"
+                              fill="#504DE5" />
+                           <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M73 71.7193C73 72.4266 72.4266 73 71.7193 73H60.193C59.4857 73 58.9123 72.4266 58.9123 71.7193C58.9123 71.012 59.4857 70.4386 60.193 70.4386H70.4386V60.193C70.4386 59.4857 71.012 58.9123 71.7193 58.9123C72.4266 58.9123 73 59.4857 73 60.193V71.7193Z"
+                              fill="#504DE5" />
+                        </svg>
+                     </div>
+                     <div class="for-patients-self-exam__wrap-content">
+                        <h4 class="for-patients-self-exam__block-title">Take a photo</h4>
+                        <div class="for-patients-self-exam__block-text">
+                           <p>As simple as that! Go to a well-lit room and snap a photo of skin issue.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="for-patients-self-exam__block">
+                     <div class="for-patients-self-exam__block-wrap-icon two">
+                        <svg width="78" height="78" viewBox="0 0 78 78" fill="none">
+                           <path
+                              d="M16.2114 49.7324V42.7324H17.8314V48.4124H21.3414V49.7324H16.2114ZM24.6672 49.8124C24.0939 49.8124 23.5839 49.6924 23.1372 49.4524C22.6972 49.2124 22.3472 48.8858 22.0872 48.4724C21.8339 48.0524 21.7072 47.5758 21.7072 47.0424C21.7072 46.5024 21.8339 46.0258 22.0872 45.6124C22.3472 45.1924 22.6972 44.8658 23.1372 44.6324C23.5839 44.3924 24.0939 44.2724 24.6672 44.2724C25.2339 44.2724 25.7406 44.3924 26.1872 44.6324C26.6339 44.8658 26.9839 45.1891 27.2372 45.6024C27.4906 46.0158 27.6172 46.4958 27.6172 47.0424C27.6172 47.5758 27.4906 48.0524 27.2372 48.4724C26.9839 48.8858 26.6339 49.2124 26.1872 49.4524C25.7406 49.6924 25.2339 49.8124 24.6672 49.8124ZM24.6672 48.5324C24.9272 48.5324 25.1606 48.4724 25.3672 48.3524C25.5739 48.2324 25.7372 48.0624 25.8572 47.8424C25.9772 47.6158 26.0372 47.3491 26.0372 47.0424C26.0372 46.7291 25.9772 46.4624 25.8572 46.2424C25.7372 46.0224 25.5739 45.8524 25.3672 45.7324C25.1606 45.6124 24.9272 45.5524 24.6672 45.5524C24.4072 45.5524 24.1739 45.6124 23.9672 45.7324C23.7606 45.8524 23.5939 46.0224 23.4672 46.2424C23.3472 46.4624 23.2872 46.7291 23.2872 47.0424C23.2872 47.3491 23.3472 47.6158 23.4672 47.8424C23.5939 48.0624 23.7606 48.2324 23.9672 48.3524C24.1739 48.4724 24.4072 48.5324 24.6672 48.5324ZM29.7435 49.7324L27.8035 44.3524H29.2735L30.8835 48.9824H30.1835L31.8635 44.3524H33.1835L34.8135 48.9824H34.1135L35.7735 44.3524H37.1535L35.2035 49.7324H33.6935L32.2635 45.7624H32.7235L31.2435 49.7324H29.7435ZM40.8208 49.7324V42.7324H43.8508C44.4774 42.7324 45.0174 42.8358 45.4708 43.0424C45.9241 43.2424 46.2741 43.5324 46.5208 43.9124C46.7674 44.2924 46.8908 44.7458 46.8908 45.2724C46.8908 45.7924 46.7674 46.2424 46.5208 46.6224C46.2741 46.9958 45.9241 47.2824 45.4708 47.4824C45.0174 47.6824 44.4774 47.7824 43.8508 47.7824H41.7208L42.4408 47.0724V49.7324H40.8208ZM45.2708 49.7324L43.5208 47.1924H45.2508L47.0208 49.7324H45.2708ZM42.4408 47.2524L41.7208 46.4924H43.7608C44.2608 46.4924 44.6341 46.3858 44.8808 46.1724C45.1274 45.9524 45.2508 45.6524 45.2508 45.2724C45.2508 44.8858 45.1274 44.5858 44.8808 44.3724C44.6341 44.1591 44.2608 44.0524 43.7608 44.0524H41.7208L42.4408 43.2824V47.2524ZM48.0643 49.7324V44.3524H49.6243V49.7324H48.0643ZM48.8443 43.6024C48.5576 43.6024 48.3243 43.5191 48.1443 43.3524C47.9643 43.1858 47.8743 42.9791 47.8743 42.7324C47.8743 42.4858 47.9643 42.2791 48.1443 42.1124C48.3243 41.9458 48.5576 41.8624 48.8443 41.8624C49.1309 41.8624 49.3643 41.9424 49.5443 42.1024C49.7243 42.2558 49.8143 42.4558 49.8143 42.7024C49.8143 42.9624 49.7243 43.1791 49.5443 43.3524C49.3709 43.5191 49.1376 43.6024 48.8443 43.6024ZM52.8821 49.8124C52.4221 49.8124 51.9787 49.7591 51.5521 49.6524C51.1321 49.5391 50.7987 49.3991 50.5521 49.2324L51.0721 48.1124C51.3187 48.2658 51.6087 48.3924 51.9421 48.4924C52.2821 48.5858 52.6154 48.6324 52.9421 48.6324C53.3021 48.6324 53.5554 48.5891 53.7021 48.5024C53.8554 48.4158 53.9321 48.2958 53.9321 48.1424C53.9321 48.0158 53.8721 47.9224 53.7521 47.8624C53.6387 47.7958 53.4854 47.7458 53.2921 47.7124C53.0987 47.6791 52.8854 47.6458 52.6521 47.6124C52.4254 47.5791 52.1954 47.5358 51.9621 47.4824C51.7287 47.4224 51.5154 47.3358 51.3221 47.2224C51.1287 47.1091 50.9721 46.9558 50.8521 46.7624C50.7387 46.5691 50.6821 46.3191 50.6821 46.0124C50.6821 45.6724 50.7787 45.3724 50.9721 45.1124C51.1721 44.8524 51.4587 44.6491 51.8321 44.5024C52.2054 44.3491 52.6521 44.2724 53.1721 44.2724C53.5387 44.2724 53.9121 44.3124 54.2921 44.3924C54.6721 44.4724 54.9887 44.5891 55.2421 44.7424L54.7221 45.8524C54.4621 45.6991 54.1987 45.5958 53.9321 45.5424C53.6721 45.4824 53.4187 45.4524 53.1721 45.4524C52.8254 45.4524 52.5721 45.4991 52.4121 45.5924C52.2521 45.6858 52.1721 45.8058 52.1721 45.9524C52.1721 46.0858 52.2287 46.1858 52.3421 46.2524C52.4621 46.3191 52.6187 46.3724 52.8121 46.4124C53.0054 46.4524 53.2154 46.4891 53.4421 46.5224C53.6754 46.5491 53.9087 46.5924 54.1421 46.6524C54.3754 46.7124 54.5854 46.7991 54.7721 46.9124C54.9654 47.0191 55.1221 47.1691 55.2421 47.3624C55.3621 47.5491 55.4221 47.7958 55.4221 48.1024C55.4221 48.4358 55.3221 48.7324 55.1221 48.9924C54.9221 49.2458 54.6321 49.4458 54.2521 49.5924C53.8787 49.7391 53.4221 49.8124 52.8821 49.8124ZM57.6746 48.6324L57.7146 46.7324L60.2246 44.3524H62.0846L59.6746 46.8024L58.8646 47.4624L57.6746 48.6324ZM56.3846 49.7324V42.3124H57.9446V49.7324H56.3846ZM60.3946 49.7324L58.5746 47.4724L59.5546 46.2624L62.2846 49.7324H60.3946Z"
+                              fill="#5DC239" />
+                           <circle cx="39" cy="39" r="36" stroke="#EBEEF5" stroke-width="6" />
+                           <path
+                              d="M38.9644 3C45.9952 3 52.8724 5.05469 58.7488 8.91093C64.6251 12.7672 69.244 18.2565 72.0362 24.7027C74.8285 31.1488 75.6722 38.2702 74.4634 45.1894C73.2546 52.1087 70.0461 58.5235 65.2332 63.6437C60.4203 68.7638 54.2133 72.3656 47.3768 74.0053C40.5403 75.645 33.3729 75.2509 26.7578 72.8717C20.1427 70.4925 14.3688 66.232 10.1474 60.6151C5.92595 54.9983 3.44147 48.2704 3 41.2605"
+                              stroke="#5DC239" stroke-width="6" stroke-linecap="round" />
+                           <path d="M31.5 28.5L37.3571 34L48.5 23" stroke="#5DC239" stroke-width="2.5"
+                              stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+                           <path
+                              d="M20.4355 30V22.3H22.2175V28.548H26.0785V30H20.4355ZM29.7369 30.088C29.1062 30.088 28.5452 29.956 28.0539 29.692C27.5699 29.428 27.1849 29.0687 26.8989 28.614C26.6202 28.152 26.4809 27.6277 26.4809 27.041C26.4809 26.447 26.6202 25.9227 26.8989 25.468C27.1849 25.006 27.5699 24.6467 28.0539 24.39C28.5452 24.126 29.1062 23.994 29.7369 23.994C30.3602 23.994 30.9176 24.126 31.4089 24.39C31.9002 24.6467 32.2852 25.0023 32.5639 25.457C32.8426 25.9117 32.9819 26.4397 32.9819 27.041C32.9819 27.6277 32.8426 28.152 32.5639 28.614C32.2852 29.0687 31.9002 29.428 31.4089 29.692C30.9176 29.956 30.3602 30.088 29.7369 30.088ZM29.7369 28.68C30.0229 28.68 30.2796 28.614 30.5069 28.482C30.7342 28.35 30.9139 28.163 31.0459 27.921C31.1779 27.6717 31.2439 27.3783 31.2439 27.041C31.2439 26.6963 31.1779 26.403 31.0459 26.161C30.9139 25.919 30.7342 25.732 30.5069 25.6C30.2796 25.468 30.0229 25.402 29.7369 25.402C29.4509 25.402 29.1942 25.468 28.9669 25.6C28.7396 25.732 28.5562 25.919 28.4169 26.161C28.2849 26.403 28.2189 26.6963 28.2189 27.041C28.2189 27.3783 28.2849 27.6717 28.4169 27.921C28.5562 28.163 28.7396 28.35 28.9669 28.482C29.1942 28.614 29.4509 28.68 29.7369 28.68ZM35.3208 30L33.1868 24.082H34.8038L36.5748 29.175H35.8048L37.6528 24.082H39.1048L40.8978 29.175H40.1278L41.9538 24.082H43.4718L41.3268 30H39.6658L38.0928 25.633H38.5988L36.9708 30H35.3208ZM20.1615 42V34.3H23.4945C24.1839 34.3 24.7779 34.4137 25.2765 34.641C25.7752 34.861 26.1602 35.18 26.4315 35.598C26.7029 36.016 26.8385 36.5147 26.8385 37.094C26.8385 37.666 26.7029 38.161 26.4315 38.579C26.1602 38.9897 25.7752 39.305 25.2765 39.525C24.7779 39.745 24.1839 39.855 23.4945 39.855H21.1515L21.9435 39.074V42H20.1615ZM25.0565 42L23.1315 39.206H25.0345L26.9815 42H25.0565ZM21.9435 39.272L21.1515 38.436H23.3955C23.9455 38.436 24.3562 38.3187 24.6275 38.084C24.8989 37.842 25.0345 37.512 25.0345 37.094C25.0345 36.6687 24.8989 36.3387 24.6275 36.104C24.3562 35.8693 23.9455 35.752 23.3955 35.752H21.1515L21.9435 34.905V39.272ZM28.1294 42V36.082H29.8454V42H28.1294ZM28.9874 35.257C28.6721 35.257 28.4154 35.1653 28.2174 34.982C28.0194 34.7987 27.9204 34.5713 27.9204 34.3C27.9204 34.0287 28.0194 33.8013 28.2174 33.618C28.4154 33.4347 28.6721 33.343 28.9874 33.343C29.3027 33.343 29.5594 33.431 29.7574 33.607C29.9554 33.7757 30.0544 33.9957 30.0544 34.267C30.0544 34.553 29.9554 34.7913 29.7574 34.982C29.5667 35.1653 29.3101 35.257 28.9874 35.257ZM33.429 42.088C32.923 42.088 32.4353 42.0293 31.966 41.912C31.504 41.7873 31.1373 41.6333 30.866 41.45L31.438 40.218C31.7093 40.3867 32.0283 40.526 32.395 40.636C32.769 40.7387 33.1357 40.79 33.495 40.79C33.891 40.79 34.1697 40.7423 34.331 40.647C34.4997 40.5517 34.584 40.4197 34.584 40.251C34.584 40.1117 34.518 40.009 34.386 39.943C34.2613 39.8697 34.0927 39.8147 33.88 39.778C33.6673 39.7413 33.4327 39.7047 33.176 39.668C32.9267 39.6313 32.6737 39.5837 32.417 39.525C32.1603 39.459 31.9257 39.3637 31.713 39.239C31.5003 39.1143 31.328 38.9457 31.196 38.733C31.0713 38.5203 31.009 38.2453 31.009 37.908C31.009 37.534 31.1153 37.204 31.328 36.918C31.548 36.632 31.8633 36.4083 32.274 36.247C32.6847 36.0783 33.176 35.994 33.748 35.994C34.1513 35.994 34.562 36.038 34.98 36.126C35.398 36.214 35.7463 36.3423 36.025 36.511L35.453 37.732C35.167 37.5633 34.8773 37.4497 34.584 37.391C34.298 37.325 34.0193 37.292 33.748 37.292C33.3667 37.292 33.088 37.3433 32.912 37.446C32.736 37.5487 32.648 37.6807 32.648 37.842C32.648 37.9887 32.7103 38.0987 32.835 38.172C32.967 38.2453 33.1393 38.304 33.352 38.348C33.5647 38.392 33.7957 38.4323 34.045 38.469C34.3017 38.4983 34.5583 38.546 34.815 38.612C35.0717 38.678 35.3027 38.7733 35.508 38.898C35.7207 39.0153 35.893 39.1803 36.025 39.393C36.157 39.5983 36.223 39.8697 36.223 40.207C36.223 40.5737 36.113 40.9 35.893 41.186C35.673 41.4647 35.354 41.6847 34.936 41.846C34.5253 42.0073 34.023 42.088 33.429 42.088ZM38.7007 40.79L38.7447 38.7L41.5057 36.082H43.5517L40.9007 38.777L40.0097 39.503L38.7007 40.79ZM37.2817 42V33.838H38.9977V42H37.2817ZM41.6927 42L39.6907 39.514L40.7687 38.183L43.7717 42H41.6927Z"
+                              fill="#5DC239" />
+                           <circle cx="31.9964" cy="32" r="28.3636" stroke="#EBEEF5" stroke-width="7" />
+                           <path
+                              d="M31.9684 3.63635C37.5078 3.63635 42.9262 5.2552 47.5561 8.29345C52.186 11.3317 55.825 15.6566 58.025 20.7354C60.2249 25.8142 60.8897 31.425 59.9373 36.8765C58.9849 42.328 56.457 47.3822 52.665 51.4162C48.8731 55.4503 43.9827 58.2881 38.5963 59.5799C33.21 60.8718 27.563 60.5613 22.3511 58.6868C17.1392 56.8122 12.59 53.4555 9.26407 49.0301C5.93811 44.6047 3.98063 39.304 3.63281 33.781"
+                              stroke="#5DC239" stroke-width="7" stroke-linecap="round" />
+                        </svg>
+                     </div>
+                     <div class="for-patients-self-exam__wrap-content">
+                        <h4 class="for-patients-self-exam__block-title">Assess skin health</h4>
+                        <div class="for-patients-self-exam__block-text">
+                           <p>In a matter of seconds, the Skinive app will analyse skin health and provide you with a
+                              full analysis of skin.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="for-patients-self-exam__block">
+                     <div class="for-patients-self-exam__block-wrap-icon three">
+                        <svg width="60" height="62" viewBox="0 0 60 62" fill="none">
+                           <path
+                              d="M55.9286 43.1116C57.5 41.814 58.5714 39.7233 58.5714 37.4884C58.5714 33.5233 55.3571 30.2791 51.4286 30.2791C47.5 30.2791 44.2857 33.5233 44.2857 37.4884C44.2857 39.7233 45.3571 41.814 46.9286 43.1116C44.6429 44.5535 43.0714 46.9326 42.8571 49.8163L31.4286 41.093V31.7209H37.1429C37.9286 31.7209 38.5714 31.0721 38.5714 30.2791V20.186C38.5714 17.086 36.9286 14.3465 34.5 12.8326C36.0714 11.5349 37.1429 9.44419 37.1429 7.2093C37.1429 3.24419 33.9286 0 30 0C26.0714 0 22.8571 3.24419 22.8571 7.2093C22.8571 9.44419 23.9286 11.5349 25.5 12.8326C23.0714 14.3465 21.4286 17.086 21.4286 20.186V30.2791C21.4286 31.0721 22.0714 31.7209 22.8571 31.7209H28.5714V41.093L17.1429 49.7442C16.9286 46.9326 15.3571 44.4814 13.0714 43.0395C14.6429 41.8139 15.7143 39.7233 15.7143 37.4884C15.7143 33.5233 12.5 30.2791 8.57143 30.2791C4.64286 30.2791 1.42857 33.5233 1.42857 37.4884C1.42857 39.7233 2.5 41.814 4.07143 43.1116C1.64286 44.6256 0 47.3651 0 50.4651V60.5581C0 61.3512 0.642857 62 1.42857 62H15.7143C16.5 62 17.1429 61.3512 17.1429 60.5581V53.3488L30 43.6163L42.8571 53.3488V60.5581C42.8571 61.3512 43.5 62 44.2857 62H58.5714C59.3571 62 60 61.3512 60 60.5581V50.4651C60 47.3651 58.3571 44.6256 55.9286 43.1116ZM8.57143 33.1628C10.9286 33.1628 12.8571 35.1093 12.8571 37.4884C12.8571 39.8674 10.9286 41.814 8.57143 41.814C6.21429 41.814 4.28571 39.8674 4.28571 37.4884C4.28571 35.1093 6.21429 33.1628 8.57143 33.1628ZM14.2857 59.1163H2.85714V50.4651C2.85714 47.293 5.42857 44.6977 8.57143 44.6977C11.7143 44.6977 14.2857 47.293 14.2857 50.4651V59.1163ZM30 2.88372C32.3571 2.88372 34.2857 4.83023 34.2857 7.2093C34.2857 9.58837 32.3571 11.5349 30 11.5349C27.6429 11.5349 25.7143 9.58837 25.7143 7.2093C25.7143 4.83023 27.6429 2.88372 30 2.88372ZM24.2857 28.8372V20.186C24.2857 17.014 26.8571 14.4186 30 14.4186C33.1429 14.4186 35.7143 17.014 35.7143 20.186V28.8372H24.2857ZM51.4286 33.1628C53.7857 33.1628 55.7143 35.1093 55.7143 37.4884C55.7143 39.8674 53.7857 41.814 51.4286 41.814C49.0714 41.814 47.1429 39.8674 47.1429 37.4884C47.1429 35.1093 49.0714 33.1628 51.4286 33.1628ZM57.1429 59.1163H45.7143V50.4651C45.7143 47.293 48.2857 44.6977 51.4286 44.6977C54.5714 44.6977 57.1429 47.293 57.1429 50.4651V59.1163Z"
+                              fill="#4D4BDE" />
+                        </svg>
+                     </div>
+                     <div class="for-patients-self-exam__wrap-content">
+                        <h4 class="for-patients-self-exam__block-title">Patient triage</h4>
+                        <div class="for-patients-self-exam__block-text">
+                           <p>Helps to identify the right specialty doctor based on patients clinical condition</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="for-doctors-more-skin">
+            <div class="n_container">
+               <h2 class="for-doctors-more-skin__title">More than 50 skin lesions can be detected by AI</h2>
+               <ul id="full-skin-list" class="for-doctors-more-skin__blocks for-doctors-more-skin-first-blocks">
+                  <li class="for-doctors-more-skin__block">
+                     <p>Dermatologic Atlas</p>
+                  </li>
+                  <li class="for-doctors-more-skin__block">
+                     <p>Pre-cancer</p>
+                  </li>
+                  <li class="for-doctors-more-skin__block">
+                     <p>Acne</p>
+                  </li>
+                  <li class="for-doctors-more-skin__block">
+                     <p>Viral skin diseases</p>
+                  </li>
+                  <li class="for-doctors-more-skin__block">
+                     <p>Papulo-squamous disorders</p>
+                  </li>
+                  <li class="for-doctors-more-skin__block">
+                     <p>Mycosis</p>
+                  </li>
+                  <li class="for-doctors-more-skin__block">
+                     <p>Skin cancer disorders</p>
+                  </li>
+                  <li class="for-doctors-more-skin__block">
+                     <p>Skin cancer disorders</p>
+                  </li>
+               </ul>
+               <button id="full-more-skin-block" class="for-doctors-more-skin__btn-full" type="button">See more</button>
+               <div class="about-skinive-ai-accuracy__bottom">
+                  <p class="about-skinive-ai-accuracy__bottom-text"><span>94,7% sensitivity</span> High Precision AI
+                     Score</p>
+                  <a href="#" class="about-skinive-ai-accuracy__bottom-button">Accuracy Report 2022</a>
+               </div>
+            </div>
+         </section>
+         <section class="key-features">
+            <div class="n_container">
+               <div class="key-features__items">
+                  <div class="key-features__item key-features-first-item">
+                     <div class="key-features__item-content">
+                        <img class="key-features-bg-item-one" src="images/svg/key-features-item-one-image-two-0.svg"
+                           alt="">
+                        <div class="key-features__block-image">
+                           <img class="key-features__image" src="images/svg/key-features-item-one-image-two.svg" alt="">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="key-features__item">
+                     <h2 data-da="key-features-first-item, 0, 800" class="key-features__title">Usecases</h2>
+                     <div data-spollers data-one-spoller class="block for-doctors-more-skin__blocks">
+                        <div class="block__item for-doctors-more-skin__block">
+                           <button tabindex="-1" type="button" data-spoller class="block__title">Primary
+                              assessment</button>
+                           <div class="for-doctors-more-skin__blockText">
+                              <p>AI Scoring is an ideal training tool and offers support in the pre- assessment of
+                                 melanocytic and non-melanocytic skin lesions for malignant and dermatological diseases.
+                                 Its based on a deep learning algorithm trained on one of the largest dermatological
+                                 case
+                                 databases.</p>
+                           </div>
+                        </div>
+                        <div class="block__item for-doctors-more-skin__block">
+                           <button tabindex="-1" type="button" data-spoller class="block__title">Patient triage</button>
+                           <div class="for-doctors-more-skin__blockText">
+                              <p>Clinicians get access Skinive's extensive database and obtain information on various
+                                 skin
+                                 conditions and treatments needed. - GPs can access Skinive's extensive database and get
+                                 information about various skin conditions and the treatments needed for them.</p>
+                           </div>
+                        </div>
+                        <div class="block__item for-doctors-more-skin__block">
+                           <button tabindex="-1" type="button" data-spoller class="block__title">Improving medical
+                              knowledge</button>
+                           <div class="for-doctors-more-skin__blockText">
+                              <p>Healthcare professionals will also receive advice on which skin specialist to contact
+                                 if
+                                 their condition requires further assessment or treatment.</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="for-patients-skinive-app">
+            <img src="images/svg/for-patients-skinive-app-bg.svg" class="for-patients-skinive-app__bg dekstop" alt="">
+            <img src="images/svg/for-patients-skinive-app-bg-mobile.svg" class="for-patients-skinive-app__bg mobile"
+               alt="">
+            <div class="n_container">
+               <div class="for-patients-skinive-app__items">
+                  <div class="for-patients-skinive-app__item">
+                     <h2 class="for-patients-skinive-app__title">It’s time to download Skinive App!</h2>
+                  </div>
+                  <div class="for-patients-skinive-app__item">
+                     <div class="for-patients-skinive-app__wrap-buttons">
+                        <div data-url="#" class="for-patients-skinive-app__button hidden-link">
+                           <svg width="224" height="68" viewBox="0 0 224 68" fill="none">
+                              <rect width="224" height="68" rx="34" fill="white" />
+                              <path
+                                 d="M57.716 33.1088C57.6796 29.1725 61.0217 27.2574 61.1745 27.1683C59.2818 24.4777 56.3481 24.1101 55.3171 24.0808C52.8532 23.8279 50.4631 25.5183 49.208 25.5183C47.9278 25.5183 45.995 24.1052 43.9118 24.1467C41.2312 24.187 38.7234 25.7002 37.348 28.0501C34.5095 32.8413 36.6264 39.8823 39.3459 43.7551C40.7063 45.6518 42.2959 47.7696 44.3766 47.6951C46.4121 47.6133 47.1725 46.4298 49.6289 46.4298C52.0628 46.4298 52.7768 47.6951 54.8988 47.6475C57.0834 47.6133 58.4588 45.7422 59.7715 43.8284C61.3436 41.6544 61.9749 39.5135 62 39.4035C61.9486 39.3864 57.7573 37.8268 57.716 33.1088Z"
+                                 fill="#504DE5" />
+                              <path
+                                 d="M53.7075 21.5331C54.8023 20.1982 55.5514 18.382 55.3434 16.5391C53.7589 16.6075 51.7772 17.6077 50.636 18.9133C49.6264 20.0638 48.7245 21.9495 48.9575 23.7229C50.7375 23.8524 52.5651 22.8472 53.7075 21.5331Z"
+                                 fill="#504DE5" />
+                              <path
+                                 d="M91.4134 46.7178H88.7021L87.2169 42.1675H82.0545L80.6397 46.7178H78L83.1147 31.2266H86.2737L91.4134 46.7178ZM86.7692 40.2584L85.426 36.2134C85.284 35.8001 85.0177 34.827 84.6249 33.2951H84.5772C84.4208 33.9539 84.1689 34.9271 83.8226 36.2134L82.5034 40.2584H86.7692Z"
+                                 fill="#504DE5" />
+                              <path
+                                 d="M104.564 40.9954C104.564 42.8952 104.038 44.3968 102.985 45.4992C102.041 46.4804 100.87 46.9705 99.4721 46.9705C97.963 46.9705 96.8789 46.442 96.2187 45.3851H96.171V51.2694H93.6256V39.2249C93.6256 38.0306 93.5933 36.8049 93.5312 35.5477H95.7698L95.9119 37.3182H95.9596C96.8085 35.9842 98.0967 35.3184 99.8255 35.3184C101.177 35.3184 102.305 35.8387 103.208 36.8805C104.113 37.9235 104.564 39.2948 104.564 40.9954ZM101.971 41.0862C101.971 39.999 101.72 39.1027 101.216 38.3973C100.666 37.6616 99.927 37.2938 99.0005 37.2938C98.3725 37.2938 97.8018 37.4986 97.292 37.9026C96.781 38.31 96.4467 38.8419 96.2903 39.5008C96.2115 39.8081 96.1722 40.0595 96.1722 40.2574V42.1199C96.1722 42.9324 96.4276 43.618 96.9386 44.178C97.4496 44.7379 98.1134 45.0172 98.9301 45.0172C99.8888 45.0172 100.635 44.6564 101.169 43.937C101.703 43.2164 101.971 42.2666 101.971 41.0862Z"
+                                 fill="#504DE5" />
+                              <path
+                                 d="M117.743 40.9954C117.743 42.8952 117.216 44.3968 116.162 45.4992C115.22 46.4804 114.049 46.9705 112.651 46.9705C111.141 46.9705 110.057 46.442 109.398 45.3851H109.351V51.2694H106.805V39.2249C106.805 38.0306 106.773 36.8049 106.711 35.5477H108.949L109.092 37.3182H109.139C109.987 35.9842 111.275 35.3184 113.005 35.3184C114.355 35.3184 115.484 35.8387 116.389 36.8805C117.29 37.9235 117.743 39.2948 117.743 40.9954ZM115.149 41.0862C115.149 39.999 114.897 39.1027 114.394 38.3973C113.843 37.6616 113.107 37.2938 112.179 37.2938C111.55 37.2938 110.98 37.4986 110.469 37.9026C109.958 38.31 109.625 38.8419 109.469 39.5008C109.391 39.8081 109.351 40.0595 109.351 40.2574V42.1199C109.351 42.9324 109.606 43.618 110.115 44.178C110.626 44.7367 111.29 45.0172 112.109 45.0172C113.067 45.0172 113.813 44.6564 114.347 43.937C114.882 43.2164 115.149 42.2666 115.149 41.0862Z"
+                                 fill="#504DE5" />
+                              <path
+                                 d="M132.474 42.3739C132.474 43.6917 132.005 44.7637 131.063 45.5914C130.028 46.4959 128.587 46.9475 126.735 46.9475C125.025 46.9475 123.655 46.6262 122.617 45.9825L123.207 43.914C124.324 44.5728 125.551 44.9034 126.887 44.9034C127.845 44.9034 128.591 44.6916 129.128 44.2702C129.661 43.8488 129.927 43.2831 129.927 42.5777C129.927 41.9491 129.708 41.4194 129.267 40.9899C128.829 40.5604 128.097 40.1611 127.075 39.7921C124.293 38.7805 122.904 37.2987 122.904 35.3501C122.904 34.0766 123.391 33.0324 124.366 32.2199C125.338 31.4063 126.635 31 128.256 31C129.702 31 130.903 31.2456 131.862 31.7357L131.225 33.7588C130.33 33.2839 129.317 33.0464 128.184 33.0464C127.289 33.0464 126.589 33.2618 126.088 33.6901C125.664 34.0731 125.452 34.5399 125.452 35.0928C125.452 35.7051 125.694 36.2115 126.181 36.6096C126.605 36.9774 127.375 37.3755 128.492 37.805C129.859 38.3417 130.863 38.9691 131.509 39.6885C132.153 40.4055 132.474 41.303 132.474 42.3739Z"
+                                 fill="#504DE5" />
+                              <path
+                                 d="M140.891 37.4104H138.086V42.8337C138.086 44.2131 138.58 44.9022 139.571 44.9022C140.026 44.9022 140.403 44.8638 140.701 44.787L140.772 46.6716C140.27 46.8543 139.61 46.9463 138.792 46.9463C137.787 46.9463 137.001 46.6471 136.434 46.05C135.87 45.4516 135.586 44.4482 135.586 43.0386V37.408H133.914V35.5456H135.586V33.5003L138.086 32.7646V35.5456H140.891V37.4104Z"
+                                 fill="#504DE5" />
+                              <path
+                                 d="M153.55 41.0416C153.55 42.7586 153.046 44.1683 152.04 45.2706C150.986 46.4056 149.587 46.9713 147.843 46.9713C146.162 46.9713 144.823 46.4277 143.825 45.3405C142.827 44.2532 142.328 42.8808 142.328 41.2267C142.328 39.4958 142.842 38.078 143.872 36.9756C144.9 35.8721 146.287 35.3203 148.031 35.3203C149.712 35.3203 151.065 35.8639 152.086 36.9523C153.062 38.0081 153.55 39.3712 153.55 41.0416ZM150.909 41.1219C150.909 40.0918 150.683 39.2082 150.226 38.4714C149.692 37.5797 148.929 37.1351 147.941 37.1351C146.917 37.1351 146.14 37.5809 145.607 38.4714C145.149 39.2094 144.924 40.1069 144.924 41.1685C144.924 42.1987 145.149 43.0822 145.607 43.8179C146.157 44.7095 146.926 45.1542 147.918 45.1542C148.89 45.1542 149.653 44.7002 150.203 43.7946C150.672 43.0438 150.909 42.151 150.909 41.1219Z"
+                                 fill="#504DE5" />
+                              <path
+                                 d="M161.825 37.7303C161.573 37.6849 161.304 37.6616 161.023 37.6616C160.127 37.6616 159.435 37.991 158.948 38.651C158.524 39.2331 158.311 39.9687 158.311 40.8569V46.7179H155.767L155.791 39.0654C155.791 37.778 155.759 36.6058 155.695 35.5488H157.912L158.006 37.686H158.076C158.345 36.9515 158.768 36.3602 159.349 35.9167C159.916 35.5174 160.528 35.3184 161.188 35.3184C161.424 35.3184 161.636 35.3347 161.825 35.3638V37.7303Z"
+                                 fill="#504DE5" />
+                              <path
+                                 d="M173.213 40.6048C173.213 41.0494 173.183 41.4243 173.12 41.7304H165.484C165.513 42.8339 165.882 43.6779 166.591 44.2599C167.235 44.7802 168.067 45.041 169.089 45.041C170.22 45.041 171.251 44.8652 172.179 44.5125L172.578 46.2353C171.494 46.6962 170.214 46.9256 168.737 46.9256C166.96 46.9256 165.566 46.4157 164.551 45.3972C163.539 44.3786 163.031 43.0109 163.031 41.295C163.031 39.6107 163.503 38.208 164.447 37.0893C165.436 35.895 166.772 35.2979 168.453 35.2979C170.104 35.2979 171.354 35.895 172.203 37.0893C172.875 38.038 173.213 39.2114 173.213 40.6048ZM170.786 39.961C170.802 39.2254 170.636 38.5898 170.291 38.0532C169.851 37.3629 169.174 37.0183 168.263 37.0183C167.431 37.0183 166.754 37.3547 166.237 38.0299C165.813 38.5665 165.561 39.2102 165.484 39.9599H170.786V39.961Z"
+                                 fill="#504DE5" />
+                              <path
+                                 d="M84.416 22.0188C84.416 23.3889 83.9946 24.4202 83.1529 25.1129C82.3733 25.7519 81.2653 26.072 79.8302 26.072C79.1187 26.072 78.5098 26.0418 78 25.9812V18.4952C78.665 18.3905 79.3813 18.3369 80.155 18.3369C81.522 18.3369 82.5523 18.6268 83.2472 19.2065C84.0256 19.8618 84.416 20.7989 84.416 22.0188ZM83.0968 22.0526C83.0968 21.1644 82.8556 20.4834 82.3733 20.0085C81.8909 19.5347 81.1865 19.2973 80.2589 19.2973C79.8649 19.2973 79.5294 19.3229 79.2512 19.3764V25.0675C79.4052 25.0907 79.687 25.1012 80.0965 25.1012C81.054 25.1012 81.793 24.8416 82.3136 24.3225C82.8341 23.8033 83.0968 23.0467 83.0968 22.0526Z"
+                                 fill="#504DE5" />
+                              <path
+                                 d="M91.4107 23.2163C91.4107 24.0602 91.1635 24.7517 90.6693 25.2941C90.1511 25.8517 89.4646 26.1299 88.6074 26.1299C87.7812 26.1299 87.1234 25.8633 86.6327 25.3279C86.1432 24.7936 85.8984 24.1196 85.8984 23.3071C85.8984 22.4573 86.1503 21.76 86.6566 21.2188C87.1628 20.6775 87.8433 20.4062 88.7005 20.4062C89.5267 20.4062 90.1905 20.6728 90.6931 21.2071C91.1707 21.7263 91.4107 22.3968 91.4107 23.2163ZM90.1129 23.2558C90.1129 22.7495 90.0007 22.3153 89.7774 21.9533C89.5148 21.5156 89.1411 21.2967 88.6552 21.2967C88.1525 21.2967 87.7705 21.5156 87.5078 21.9533C87.2834 22.3153 87.1723 22.7565 87.1723 23.278C87.1723 23.7843 87.2846 24.2185 87.5078 24.5805C87.7788 25.0182 88.1561 25.2371 88.6432 25.2371C89.1208 25.2371 89.4957 25.0147 89.7655 24.5689C89.9971 24.1999 90.1129 23.7622 90.1129 23.2558Z"
+                                 fill="#504DE5" />
+                              <path
+                                 d="M100.795 20.5176L99.0339 26.0049H97.8878L97.1583 23.6221C96.9733 23.0273 96.8228 22.4359 96.7058 21.8493H96.6832C96.5745 22.4522 96.4241 23.0424 96.2307 23.6221L95.4558 26.0049H94.2966L92.6406 20.5176H93.9265L94.5628 23.1262C94.7168 23.7432 94.8434 24.331 94.9448 24.8874H94.9675C95.0607 24.4288 95.2147 23.8444 95.432 23.1379L96.2307 20.5187H97.2503L98.0156 23.082C98.2006 23.7071 98.351 24.3089 98.4668 24.8886H98.5015C98.5862 24.324 98.714 23.7222 98.8835 23.082L99.5664 20.5187H100.795V20.5176Z"
+                                 fill="#504DE5" />
+                              <path
+                                 d="M107.277 26.0049H106.026V22.862C106.026 21.8935 105.648 21.4092 104.892 21.4092C104.52 21.4092 104.221 21.542 103.988 21.8085C103.757 22.0751 103.64 22.3894 103.64 22.7491V26.0038H102.389V22.0856C102.389 21.6036 102.374 21.081 102.344 20.5153H103.443L103.502 21.3732H103.536C103.682 21.1066 103.899 20.8866 104.185 20.7108C104.524 20.5059 104.903 20.4023 105.319 20.4023C105.844 20.4023 106.281 20.5676 106.629 20.8994C107.061 21.3056 107.277 21.9121 107.277 22.7176V26.0049Z"
+                                 fill="#504DE5" />
+                              <path d="M110.727 26.0052H109.477V18H110.727V26.0052Z" fill="#504DE5" />
+                              <path
+                                 d="M118.09 23.2163C118.09 24.0602 117.843 24.7517 117.349 25.2941C116.831 25.8517 116.143 26.1299 115.287 26.1299C114.46 26.1299 113.802 25.8633 113.312 25.3279C112.823 24.7936 112.578 24.1196 112.578 23.3071C112.578 22.4573 112.83 21.76 113.336 21.2188C113.842 20.6775 114.523 20.4062 115.379 20.4062C116.206 20.4062 116.869 20.6728 117.373 21.2071C117.85 21.7263 118.09 22.3968 118.09 23.2163ZM116.791 23.2558C116.791 22.7495 116.679 22.3153 116.456 21.9533C116.194 21.5156 115.82 21.2967 115.335 21.2967C114.831 21.2967 114.449 21.5156 114.187 21.9533C113.963 22.3153 113.852 22.7565 113.852 23.278C113.852 23.7843 113.964 24.2185 114.187 24.5805C114.459 25.0182 114.836 25.2371 115.323 25.2371C115.8 25.2371 116.174 25.0147 116.444 24.5689C116.677 24.1999 116.791 23.7622 116.791 23.2558Z"
+                                 fill="#504DE5" />
+                              <path
+                                 d="M124.152 26.0053H123.028L122.935 25.3733H122.9C122.516 25.8773 121.968 26.1299 121.256 26.1299C120.725 26.1299 120.295 25.9634 119.972 25.6328C119.678 25.3325 119.531 24.9589 119.531 24.5153C119.531 23.8449 119.818 23.3338 120.394 22.98C120.97 22.6261 121.779 22.4527 122.822 22.4608V22.3584C122.822 21.6355 122.432 21.2746 121.653 21.2746C121.098 21.2746 120.608 21.4108 120.186 21.6809L119.931 20.88C120.454 20.5646 121.1 20.4062 121.862 20.4062C123.333 20.4062 124.07 21.1629 124.07 22.6761V24.6969C124.07 25.2452 124.098 25.6817 124.152 26.0053ZM122.853 24.1196V23.2733C121.473 23.25 120.782 23.619 120.782 24.3792C120.782 24.6655 120.861 24.8797 121.022 25.0229C121.184 25.1661 121.389 25.2371 121.634 25.2371C121.908 25.2371 122.165 25.1521 122.399 24.9833C122.634 24.8133 122.779 24.598 122.832 24.3338C122.846 24.2744 122.853 24.2022 122.853 24.1196Z"
+                                 fill="#504DE5" />
+                              <path
+                                 d="M131.255 26.0052H130.145L130.087 25.124H130.052C129.697 25.7945 129.093 26.1297 128.244 26.1297C127.566 26.1297 127.001 25.8701 126.554 25.351C126.106 24.8318 125.883 24.1578 125.883 23.3302C125.883 22.442 126.125 21.7226 126.612 21.1732C127.084 20.661 127.662 20.4049 128.349 20.4049C129.105 20.4049 129.634 20.6529 129.935 21.1499H129.959V18H131.211V24.5268C131.211 25.0611 131.226 25.5535 131.255 26.0052ZM129.959 23.691V22.7761C129.959 22.6178 129.947 22.4897 129.924 22.392C129.854 22.0986 129.702 21.8518 129.472 21.6528C129.239 21.4537 128.958 21.3536 128.635 21.3536C128.168 21.3536 127.803 21.5341 127.534 21.8961C127.268 22.2581 127.133 22.7202 127.133 23.2848C127.133 23.8272 127.261 24.2673 127.517 24.606C127.788 24.9668 128.154 25.1473 128.611 25.1473C129.022 25.1473 129.35 24.9971 129.599 24.6956C129.841 24.4174 129.959 24.0822 129.959 23.691Z"
+                                 fill="#504DE5" />
+                              <path
+                                 d="M141.958 23.2163C141.958 24.0602 141.71 24.7517 141.216 25.2941C140.698 25.8517 140.013 26.1299 139.154 26.1299C138.329 26.1299 137.671 25.8633 137.18 25.3279C136.69 24.7936 136.445 24.1196 136.445 23.3071C136.445 22.4573 136.697 21.76 137.203 21.2188C137.71 20.6775 138.39 20.4062 139.249 20.4062C140.074 20.4062 140.739 20.6728 141.24 21.2071C141.718 21.7263 141.958 22.3968 141.958 23.2163ZM140.661 23.2558C140.661 22.7495 140.549 22.3153 140.325 21.9533C140.062 21.5156 139.689 21.2967 139.202 21.2967C138.701 21.2967 138.319 21.5156 138.055 21.9533C137.83 22.3153 137.719 22.7565 137.719 23.278C137.719 23.7843 137.831 24.2185 138.055 24.5805C138.326 25.0182 138.703 25.2371 139.19 25.2371C139.668 25.2371 140.044 25.0147 140.314 24.5689C140.544 24.1999 140.661 23.7622 140.661 23.2558Z"
+                                 fill="#504DE5" />
+                              <path
+                                 d="M148.69 26.0049H147.44V22.862C147.44 21.8935 147.063 21.4092 146.304 21.4092C145.933 21.4092 145.633 21.542 145.402 21.8085C145.17 22.0751 145.054 22.3894 145.054 22.7491V26.0038H143.802V22.0856C143.802 21.6036 143.788 21.081 143.758 20.5153H144.856L144.915 21.3732H144.949C145.096 21.1066 145.313 20.8866 145.598 20.7108C145.938 20.5059 146.316 20.4023 146.733 20.4023C147.257 20.4023 147.694 20.5676 148.042 20.8994C148.475 21.3056 148.69 21.9121 148.69 22.7176V26.0049Z"
+                                 fill="#504DE5" />
+                              <path
+                                 d="M157.107 21.4308H155.73V24.0964C155.73 24.7739 155.974 25.1127 156.459 25.1127C156.684 25.1127 156.87 25.094 157.017 25.0556L157.049 25.981C156.802 26.0718 156.477 26.1172 156.077 26.1172C155.583 26.1172 155.198 25.9706 154.92 25.6772C154.641 25.3839 154.502 24.8903 154.502 24.1977V21.4308H153.68V20.517H154.502V19.5112L155.728 19.1504V20.5158H157.106V21.4308H157.107Z"
+                                 fill="#504DE5" />
+                              <path
+                                 d="M163.732 26.0052H162.479V22.8855C162.479 21.9019 162.102 21.4095 161.346 21.4095C160.766 21.4095 160.37 21.6947 160.152 22.2651C160.115 22.385 160.094 22.5317 160.094 22.7039V26.004H158.844V18H160.094V21.3071H160.118C160.512 20.7053 161.076 20.4049 161.808 20.4049C162.326 20.4049 162.755 20.5702 163.095 20.902C163.519 21.3152 163.732 21.9298 163.732 22.7423V26.0052Z"
+                                 fill="#504DE5" />
+                              <path
+                                 d="M170.566 23.0018C170.566 23.2207 170.549 23.4046 170.52 23.5547H166.767C166.784 24.0972 166.963 24.5104 167.31 24.7968C167.628 25.0529 168.037 25.1809 168.539 25.1809C169.094 25.1809 169.6 25.0948 170.056 24.9213L170.252 25.7688C169.718 25.9946 169.09 26.1075 168.363 26.1075C167.492 26.1075 166.805 25.8572 166.309 25.3567C165.81 24.8562 165.562 24.1845 165.562 23.3417C165.562 22.5141 165.793 21.825 166.257 21.2755C166.742 20.6888 167.398 20.3955 168.225 20.3955C169.034 20.3955 169.649 20.6888 170.065 21.2755C170.4 21.7412 170.566 22.3174 170.566 23.0018ZM169.372 22.6864C169.382 22.3243 169.299 22.0124 169.13 21.7493C168.913 21.4106 168.582 21.2406 168.134 21.2406C167.726 21.2406 167.393 21.4059 167.138 21.7377C166.931 22.0019 166.808 22.3174 166.767 22.6864H169.372Z"
+                                 fill="#504DE5" />
+                           </svg>
+                        </div>
+                        <div data-url="#" class="for-patients-skinive-app__button hidden-link">
+                           <svg width="224" height="68" viewBox="0 0 224 68" fill="none">
+                              <rect width="224" height="68" rx="34" fill="white" />
+                              <path
+                                 d="M86.1598 22.2215C86.1598 23.2647 85.8399 24.1003 85.2096 24.7234C84.485 25.4622 83.5412 25.8339 82.3847 25.8339C81.2794 25.8339 80.3356 25.4559 79.5614 24.7109C78.7855 23.955 78.3984 23.0274 78.3984 21.9169C78.3984 20.8065 78.7855 19.8788 79.5614 19.1292C80.3356 18.378 81.2794 18 82.3847 18C82.935 18 83.4596 18.1109 83.9603 18.317C84.4594 18.5248 84.8657 18.8059 85.16 19.1526L84.4914 19.8117C83.9779 19.2197 83.2789 18.9277 82.3847 18.9277C81.5785 18.9277 80.8794 19.2026 80.286 19.757C79.6989 20.313 79.4046 21.033 79.4046 21.9169C79.4046 22.8009 79.6989 23.5271 80.286 24.0831C80.8794 24.6313 81.5785 24.9124 82.3847 24.9124C83.2405 24.9124 83.9603 24.6313 84.5282 24.0769C84.9025 23.7098 85.1152 23.2038 85.1712 22.5573H82.3847V21.6546H86.1022C86.147 21.8498 86.1598 22.0387 86.1598 22.2215Z"
+                                 fill="#504DE5" stroke="#504DE5" stroke-width="0.16" stroke-miterlimit="10" />
+                              <path
+                                 d="M92.0587 19.0918H88.5667V21.4657H91.7147V22.3684H88.5667V24.7423H92.0587V25.6621H87.5781V18.1719H92.0587V19.0918Z"
+                                 fill="#504DE5" stroke="#504DE5" stroke-width="0.16" stroke-miterlimit="10" />
+                              <path
+                                 d="M96.2242 25.6621H95.2356V19.0918H93.0938V18.1719H98.3677V19.0918H96.2242V25.6621Z"
+                                 fill="#504DE5" stroke="#504DE5" stroke-width="0.16" stroke-miterlimit="10" />
+                              <path d="M102.18 25.6621V18.1719H103.167V25.6621H102.18Z" fill="#504DE5" stroke="#504DE5"
+                                 stroke-width="0.16" stroke-miterlimit="10" />
+                              <path
+                                 d="M107.545 25.6621H106.564V19.0918H104.414V18.1719H109.694V19.0918H107.545V25.6621Z"
+                                 fill="#504DE5" stroke="#504DE5" stroke-width="0.16" stroke-miterlimit="10" />
+                              <path
+                                 d="M119.683 24.6984C118.927 25.4559 117.989 25.8339 116.871 25.8339C115.747 25.8339 114.809 25.4559 114.053 24.6984C113.298 23.9426 112.922 23.0149 112.922 21.9169C112.922 20.819 113.298 19.8913 114.053 19.1354C114.809 18.3779 115.747 18 116.871 18C117.983 18 118.92 18.3779 119.677 19.1417C120.438 19.9038 120.814 20.8252 120.814 21.9169C120.814 23.0149 120.438 23.9426 119.683 24.6984ZM114.784 24.0706C115.353 24.6313 116.046 24.9124 116.871 24.9124C117.69 24.9124 118.389 24.6313 118.952 24.0706C119.52 23.5099 119.808 22.79 119.808 21.9169C119.808 21.0439 119.52 20.3239 118.952 19.7632C118.389 19.2026 117.69 18.9214 116.871 18.9214C116.046 18.9214 115.353 19.2026 114.784 19.7632C114.216 20.3239 113.928 21.0439 113.928 21.9169C113.928 22.79 114.216 23.5099 114.784 24.0706Z"
+                                 fill="#504DE5" stroke="#504DE5" stroke-width="0.16" stroke-miterlimit="10" />
+                              <path
+                                 d="M122.195 25.6621V18.1719H123.395L127.125 23.9973H127.169L127.125 22.5573V18.1719H128.112V25.6621H127.082L123.176 19.5494H123.133L123.176 20.9956V25.6621H122.195Z"
+                                 fill="#504DE5" stroke="#504DE5" stroke-width="0.16" stroke-miterlimit="10" />
+                              <path
+                                 d="M112.673 36.6009C109.668 36.6009 107.212 38.8342 107.212 41.9156C107.212 44.972 109.668 47.2288 112.673 47.2288C115.685 47.2288 118.141 44.972 118.141 41.9156C118.141 38.8342 115.685 36.6009 112.673 36.6009ZM112.673 45.136C111.024 45.136 109.605 43.8069 109.605 41.9156C109.605 39.9993 111.024 38.6937 112.673 38.6937C114.323 38.6937 115.748 39.9993 115.748 41.9156C115.748 43.8069 114.323 45.136 112.673 45.136ZM100.758 36.6009C97.7457 36.6009 95.2967 38.8342 95.2967 41.9156C95.2967 44.972 97.7457 47.2288 100.758 47.2288C103.768 47.2288 106.219 44.972 106.219 41.9156C106.219 38.8342 103.768 36.6009 100.758 36.6009ZM100.758 45.136C99.1069 45.136 97.6833 43.8069 97.6833 41.9156C97.6833 39.9993 99.1069 38.6937 100.758 38.6937C102.407 38.6937 103.826 39.9993 103.826 41.9156C103.826 43.8069 102.407 45.136 100.758 45.136ZM86.5787 38.2298V40.4882H92.1022C91.9407 41.7501 91.5088 42.6778 90.8465 43.3243C90.0403 44.1052 88.7846 44.972 86.5787 44.972C83.1796 44.972 80.5178 42.2936 80.5178 38.9748C80.5178 35.656 83.1796 32.9776 86.5787 32.9776C88.4167 32.9776 89.754 33.6788 90.741 34.5878L92.371 32.9963C90.9905 31.7094 89.1541 30.7208 86.5787 30.7208C81.9175 30.7208 78 34.4238 78 38.9748C78 43.5258 81.9175 47.2288 86.5787 47.2288C89.0981 47.2288 90.9905 46.4229 92.4781 44.9111C94.0026 43.4227 94.4777 41.33 94.4777 39.6401C94.4777 39.1154 94.4329 38.6328 94.3529 38.2298H86.5787ZM144.558 39.9806C144.109 38.7921 142.722 36.6009 139.897 36.6009C137.098 36.6009 134.767 38.7546 134.767 41.9156C134.767 44.8924 137.074 47.2288 140.166 47.2288C142.666 47.2288 144.109 45.7404 144.702 44.8736L142.847 43.6664C142.228 44.5503 141.385 45.136 140.166 45.136C138.955 45.136 138.086 44.5941 137.53 43.5258L144.81 40.585L144.558 39.9806ZM137.136 41.7501C137.074 39.701 138.766 38.6515 139.979 38.6515C140.929 38.6515 141.735 39.1154 142.004 39.7791L137.136 41.7501ZM131.219 46.9055H133.612V31.2878H131.219V46.9055ZM127.3 37.7847H127.22C126.683 37.1631 125.657 36.6009 124.359 36.6009C121.633 36.6009 119.141 38.9373 119.141 41.9328C119.141 44.9111 121.633 47.2288 124.359 47.2288C125.657 47.2288 126.683 46.6619 127.22 46.0215H127.3V46.7837C127.3 48.8155 126.188 49.9072 124.395 49.9072C122.933 49.9072 122.026 48.8765 121.652 48.0097L119.571 48.8577C120.171 50.2664 121.759 52 124.395 52C127.201 52 129.568 50.3882 129.568 46.4666V36.9242H127.3V37.7847ZM124.563 45.136C122.914 45.136 121.534 43.7882 121.534 41.9328C121.534 40.0602 122.914 38.6937 124.563 38.6937C126.188 38.6937 127.47 40.0602 127.47 41.9328C127.47 43.7882 126.188 45.136 124.563 45.136ZM155.762 31.2878H150.039V46.9055H152.425V40.9879H155.762C158.413 40.9879 161.012 39.1154 161.012 36.1371C161.012 33.1603 158.406 31.2878 155.762 31.2878ZM155.825 38.8155H152.425V33.4602H155.825C157.607 33.4602 158.624 34.9048 158.624 36.1371C158.624 37.3459 157.607 38.8155 155.825 38.8155ZM170.578 36.5712C168.853 36.5712 167.06 37.3146 166.323 38.9623L168.441 39.8291C168.897 38.9623 169.735 38.6812 170.621 38.6812C171.859 38.6812 173.115 39.4074 173.134 40.6896V40.8536C172.702 40.61 171.778 40.2492 170.64 40.2492C168.359 40.2492 166.035 41.4752 166.035 43.7632C166.035 45.856 167.903 47.2038 170.004 47.2038C171.61 47.2038 172.496 46.4963 173.052 45.6733H173.134V46.8805H175.439V40.8895C175.439 38.1205 173.321 36.5712 170.578 36.5712ZM170.29 45.1298C169.509 45.1298 168.422 44.7518 168.422 43.8069C168.422 42.5981 169.778 42.1343 170.952 42.1343C172.003 42.1343 172.496 42.3607 173.134 42.659C172.947 44.1052 171.672 45.1298 170.29 45.1298ZM183.837 36.9133L181.094 43.6836H181.012L178.176 36.9133H175.602L179.864 46.3745L177.432 51.6392H179.926L186.492 36.9133H183.837ZM162.324 46.9055H164.717V31.2878H162.324V46.9055Z"
+                                 fill="#504DE5" />
+                              <path
+                                 d="M36.5355 19.4474C36.1963 19.7941 36 20.3339 36 21.0329V45.9673C36 46.6663 36.1963 47.2061 36.5355 47.5528L36.6193 47.6289L50.9302 33.6622V33.3324L36.6193 19.3656L36.5355 19.4474Z"
+                                 fill="#504DE5" stroke="white" />
+                              <path
+                                 d="M55.6947 38.3203L50.9297 33.6624V33.3326L55.7005 28.6747L55.8073 28.7353L61.4572 31.8739C63.0696 32.7646 63.0696 34.2304 61.4572 35.1267L55.8073 38.2597L55.6947 38.3203Z"
+                                 fill="#504DE5" stroke="white" />
+                              <path
+                                 d="M55.8035 38.2598L50.9259 33.4976L36.5312 47.5531C37.0668 48.1028 37.9401 48.169 38.9332 47.6194L55.8035 38.2598Z"
+                                 fill="#504DE5" />
+                              <path
+                                 d="M55.8035 38.2598L50.9259 33.4976L36.5312 47.5531C37.0668 48.1028 37.9401 48.169 38.9332 47.6194L55.8035 38.2598"
+                                 stroke="white" />
+                              <path
+                                 d="M55.8035 28.7358L38.9332 19.3763C37.9401 18.8323 37.0668 18.8985 36.5312 19.4482L50.9259 33.498L55.8035 28.7358Z"
+                                 fill="#504DE5" stroke="white" />
+                           </svg>
+                        </div>
+                     </div>
+                     <p class="for-patients-skinive-app__button-text">Try 1 month for free!</p>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <div class="for-patients-stay-healthy">
+            <div class="n_container">
+               <div class="for-patients-stay-healthy__wrap-icons">
+                  <img src="images/svg/for-patients-stay-healthy-icon-1.svg" alt="">
+                  <img src="images/svg/for-patients-stay-healthy-icon-2.svg" alt="">
+                  <img src="images/svg/for-patients-stay-healthy-icon-3.svg" alt="">
+               </div>
+               <div class="for-patients-stay-healthy__block-text">
+                  <p>Skinive Apps are CE-Marked medical software trusted by dermatologists and being used by people at
+                     home and by professionals in primary care all around the world.</p>
+               </div>
+            </div>
+         </div>
+         <section class="about-publication-clinical">
+            <div class="n_container">
+               <h2 class="about-publication-clinical__title">Publications and Clinical Evidence:</h2>
+               <div class="about-publication-clinical__blocks">
+                  <div
+                     data-url="https://www.emerce.nl/interviews/ai-in-de-praktijk-skinive-diagnosticeert-vijftig-huidziekten-met-een-smartphonecamera"
+                     class="about-publication-clinical__block hidden-link">
+                     <img class="about-publication-clinical__block-logo"
+                        src="images/svg/about-publication-clinical-logo-9.svg" alt="">
+                  </div>
+                  <div data-url="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9098258/"
+                     class="about-publication-clinical__block hidden-link">
+                     <img class="about-publication-clinical__block-logo"
+                        src="images/svg/about-publication-clinical-logo-1.svg" alt="">
+                  </div>
+                  <div
+                     data-url="https://apnews.com/press-release/ein-presswire-newsmatics/technology-health-europe-lifestyle-media-0cb5b6c4eee8c0bcbedeb99525d0b99d"
+                     class="about-publication-clinical__block hidden-link">
+                     <img class="about-publication-clinical__block-logo"
+                        src="images/svg/about-publication-clinical-logo-7.svg" alt="">
+                  </div>
+                  <div
+                     data-url="https://www.e-ijd.org/article.asp?issn=0019-5154;year=2022;volume=67;issue=3;spage=312;epage=312;aulast=Sokolov"
+                     class="about-publication-clinical__block hidden-link">
+                     <img class="about-publication-clinical__block-logo"
+                        src="images/svg/about-publication-clinical-logo-2.svg" alt="">
+                  </div>
+                  <div data-url="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3974784"
+                     class="about-publication-clinical__block hidden-link">
+                     <img class="about-publication-clinical__block-logo"
+                        src="images/svg/about-publication-clinical-logo-3.svg" alt="">
+                  </div>
+                  <div data-url="#" class="about-publication-clinical__block hidden-link">
+                     <img class="about-publication-clinical__block-logo"
+                        src="images/svg/about-publication-clinical-logo-10.svg" alt="">
+                  </div>
+                  <div data-url="https://smarthealthamsterdam.com/blogs/skinive-our-app-can-help-everyone"
+                     class="about-publication-clinical__block hidden-link">
+                     <img class="about-publication-clinical__block-logo"
+                        src="images/svg/about-publication-clinical-logo-6.svg" alt="">
+                  </div>
+                  <div
+                     data-url="https://amqueretaro.com/trending/2022/11/13/con-un-95-de-precision-una-startup-holandesa-lanza-una-aplicacion-que-puede-identificar-mas-de-50-enfermedades-cutaneas-a-partir-de-una-foto/"
+                     class="about-publication-clinical__block hidden-link">
+                     <img class="about-publication-clinical__block-logo"
+                        src="images/svg/about-publication-clinical-logo-8.svg" alt="">
+                  </div>
+                  <div data-url="https://www.ictmagazine.nl/app-van-startup-herkent-vijftig-huidziekten/"
+                     class="about-publication-clinical__block hidden-link">
+                     <img class="about-publication-clinical__block-logo"
+                        src="images/svg/about-publication-clinical-logo-11.svg" alt="">
+                  </div>
+                  <div
+                     data-url="https://www.telecompaper.com/news/skinive-wins-tp-innovation-award-during-telecom-insights-event--1425873"
+                     class="about-publication-clinical__block hidden-link">
+                     <img class="about-publication-clinical__block-logo"
+                        src="images/svg/about-publication-clinical-logo-5.svg" alt="">
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <footer class="footer">
+   <div class="n_container">
+      <div class="footer__items">
+         <div class="footer__item footer-one-item">
+            <div class="footer__wrap-logo">
+               <a href="/" class="footer__logo">
+                  <picture><source srcset="images/logo-footer.webp" type="image/webp"><img class="footer__logo" src="images/logo-footer.png" alt="Skin Health AI-Tracker"></picture>
+               </a>
+            </div>
+            <div data-da="footer-two-item, 1, 800" class="footer__wrap-this-project">
+               <div class="footer__wrap-icon-this-project">
+                  <picture><source srcset="images/footer-icon-this-project.webp" type="image/webp"><img src="images/footer-icon-this-project.png" alt="This project"></picture>
+               </div>
+               <p>This project has received funding from<br> the European Union’s Horizon 2020 programme under grant
+                  agreement No 951847</p>
+            </div>
+         </div>
+         <div class="footer__item footer-two-item">
+            <div class="footer__item-content">
+               <nav class="footer__wrap-item-menu">
+                  <ul class="menu__list">
+                     <!--- current-menu-item current_page_item -->
+                     <li class="menu-item">
+                        <a class="menu__link" href="#">Terms & Conditions</a>
+                     </li>
+                     <li class="menu-item">
+                        <a class="menu__link" href="#">Contacts</a>
+                     </li>
+                     <li class="menu-item">
+                        <a class="menu__link" href="#">FAQ</a>
+                     </li>
+                  </ul>
+               </nav>
+               <div class="footer__wrap-copyright">
+                  <p>&copy; 2018-2022 Skinive Holding B.V.<br> Overhoeksplein 3, 1031 KS Amsterdam, Netherlands</p>
+               </div>
+            </div>
+         </div>
+         <div class="footer__item">
+            <a href="/get-skinive.html" class="footer__button">GET STARTED</a>
+            <ul data-da="footer-one-item, 1, 800" class="footer__social-list">
+               <li class="footer__social-list-item hidden-link" data-url="#">
+                  <svg viewBox="0 0 51 54" fill="none">
+                     <g filter="url(#filter0_d_6169_1984)">
+                        <path
+                           d="M36 15.2889V11.0996C34.0604 11.0996 32.5802 10.5759 31.625 9.55808C30.6446 8.39647 30.0954 6.92542 30.0719 5.39828V5.09588L26.1563 5V22.0154C26.0219 22.7578 25.6657 23.4406 25.1355 23.9717C24.6054 24.5028 23.9269 24.8565 23.1917 24.9853C22.4565 25.114 21.6999 25.0114 21.0242 24.6914C20.3484 24.3714 19.786 23.8494 19.4129 23.1958C19.0397 22.5423 18.8738 21.7887 18.9375 21.0367C19.0012 20.2847 19.2914 19.5706 19.769 18.9908C20.2467 18.411 20.8887 17.9934 21.6084 17.7943C22.3281 17.5953 23.0909 17.6244 23.7938 17.8777V13.8211C23.384 13.7532 22.9694 13.7187 22.5542 13.7179C21.0601 13.7179 19.5996 14.166 18.3573 15.0056C17.115 15.8452 16.1468 17.0386 15.575 18.4348C15.0033 19.8311 14.8537 21.3674 15.1452 22.8496C15.4366 24.3319 16.1561 25.6934 17.2126 26.762C18.269 27.8306 19.6151 28.5583 21.0804 28.8532C22.5458 29.148 24.0647 28.9967 25.445 28.4184C26.8254 27.84 28.0052 26.8606 28.8352 25.6041C29.6653 24.3475 30.1083 22.8702 30.1083 21.3589C30.1075 21.0458 30.088 20.733 30.05 20.4222V13.6736C31.8305 14.7984 33.902 15.3607 36 15.2889Z"
+                           fill="currentColor" />
+                     </g>
+                     <defs>
+                        <filter id="filter0_d_6169_1984" x="0" y="0" width="51" height="54" filterUnits="userSpaceOnUse"
+                           color-interpolation-filters="sRGB">
+                           <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                           <feColorMatrix in="SourceAlpha" type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                           <feOffset dy="10" />
+                           <feGaussianBlur stdDeviation="7.5" />
+                           <feComposite in2="hardAlpha" operator="out" />
+                           <feColorMatrix type="matrix"
+                              values="0 0 0 0 1 0 0 0 0 0.470937 0 0 0 0 0.233333 0 0 0 0.25 0" />
+                           <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_6169_984" />
+                           <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_6169_984" result="shape" />
+                        </filter>
+                     </defs>
+                  </svg>
+               </li>
+               <li class="footer__social-list-item hidden-link" data-url="https://www.linkedin.com/">
+                  <svg viewBox="0 0 54 53" fill="none">
+                     <g filter="url(#filter0_d_63169_983)">
+                        <path
+                           d="M15 7.67172C15 6.89729 15.2703 6.2584 15.8108 5.75505C16.3513 5.25168 17.0541 5 17.9189 5C18.7683 5 19.4556 5.2478 19.9807 5.74343C20.5212 6.25455 20.7915 6.92052 20.7915 7.74141C20.7915 8.48485 20.529 9.10436 20.0039 9.6C19.4633 10.1111 18.7529 10.3667 17.8726 10.3667H17.8494C17 10.3667 16.3127 10.1111 15.7876 9.6C15.2625 9.08889 15 8.44612 15 7.67172ZM15.3012 28V12.4808H20.444V28H15.3012ZM23.2934 28H28.4363V19.3343C28.4363 18.7922 28.4981 18.3741 28.6216 18.0798C28.8378 17.5532 29.166 17.1079 29.6062 16.7439C30.0463 16.38 30.5984 16.198 31.2625 16.198C32.9923 16.198 33.8571 17.3673 33.8571 19.7061V28H39V19.102C39 16.8098 38.4595 15.0712 37.3784 13.8864C36.2973 12.7015 34.8687 12.1091 33.0927 12.1091C31.1004 12.1091 29.5483 12.9687 28.4363 14.6879V14.7343H28.4131L28.4363 14.6879V12.4808H23.2934C23.3243 12.9764 23.3398 14.5175 23.3398 17.104C23.3398 19.6906 23.3243 23.3225 23.2934 28Z"
+                           fill="currentColor" />
+                     </g>
+                     <defs>
+                        <filter id="filter0_d_63169_983" x="0" y="0" width="54" height="53" filterUnits="userSpaceOnUse"
+                           color-interpolation-filters="sRGB">
+                           <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                           <feColorMatrix in="SourceAlpha" type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                           <feOffset dy="10" />
+                           <feGaussianBlur stdDeviation="7.5" />
+                           <feComposite in2="hardAlpha" operator="out" />
+                           <feColorMatrix type="matrix"
+                              values="0 0 0 0 1 0 0 0 0 0.470937 0 0 0 0 0.233333 0 0 0 0.25 0" />
+                           <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_6169_983" />
+                           <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_6169_983" result="shape" />
+                        </filter>
+                     </defs>
+                  </svg>
+               </li>
+               <li class="footer__social-list-item hidden-link" data-url="https://facebook.com/">
+                  <svg viewBox="0 0 42 52" fill="none">
+                     <g filter="url(#filter0_d_6169_9180)">
+                        <path
+                           d="M26.2138 17.3748L26.8359 13.3933H22.9453V10.8102C22.9249 10.5053 22.9716 10.1995 23.0821 9.91569C23.1926 9.63184 23.364 9.37716 23.5836 9.17056C23.8031 8.96395 24.0652 8.81072 24.3504 8.72224C24.6356 8.63376 24.9365 8.61229 25.2309 8.65944H27V5.26885C25.9608 5.10409 24.9116 5.01425 23.8601 5C20.6549 5 18.5623 6.90654 18.5623 10.3592V13.3933H15V17.3748H18.5623V27H22.9453V17.3748H26.2138Z"
+                           fill="currentColor" />
+                     </g>
+                     <defs>
+                        <filter id="filter0_d_6169_9180" x="0" y="0" width="42" height="52" filterUnits="userSpaceOnUse"
+                           color-interpolation-filters="sRGB">
+                           <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                           <feColorMatrix in="SourceAlpha" type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                           <feOffset dy="10" />
+                           <feGaussianBlur stdDeviation="7.5" />
+                           <feComposite in2="hardAlpha" operator="out" />
+                           <feColorMatrix type="matrix"
+                              values="0 0 0 0 1 0 0 0 0 0.470937 0 0 0 0 0.233333 0 0 0 0.25 0" />
+                           <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_6169_980" />
+                           <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_6169_980" result="shape" />
+                        </filter>
+                     </defs>
+                  </svg>
+               </li>
+               <li class="footer__social-list-item hidden-link" data-url="https://www.instagram.com/">
+                  <svg viewBox="0 0 52 52" fill="none">
+                     <g filter="url(#filter0_d_6169_1977)">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                           d="M21.1875 5H30.8125C34.2245 5 37 7.77551 37 11.1875V20.8125C37 24.2245 34.2245 27 30.8125 27H21.1875C17.7755 27 15 24.2245 15 20.8125V11.1875C15 7.77551 17.7755 5 21.1875 5ZM20.5 16C20.5 19.0333 22.9673 21.5 26 21.5C29.0327 21.5 31.5 19.0333 31.5 16C31.5 12.9667 29.0327 10.5 26 10.5C22.9673 10.5 20.5 12.9667 20.5 16ZM31.5 9.8125C31.5 10.1922 31.8078 10.5 32.1875 10.5C32.5672 10.5 32.875 10.1922 32.875 9.8125C32.875 9.43275 32.5672 9.125 32.1875 9.125C31.8078 9.125 31.5 9.43275 31.5 9.8125ZM28.9168 18.9168C30.5277 17.3059 30.5277 14.6941 28.9168 13.0832C27.3059 11.4723 24.6941 11.4723 23.0832 13.0832C21.4723 14.6941 21.4723 17.3059 23.0832 18.9168C24.6941 20.5277 27.3059 20.5277 28.9168 18.9168Z"
+                           fill="currentColor" />
+                     </g>
+                     <defs>
+                        <filter id="filter0_d_6169_1977" x="0" y="0" width="52" height="52" filterUnits="userSpaceOnUse"
+                           color-interpolation-filters="sRGB">
+                           <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                           <feColorMatrix in="SourceAlpha" type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                           <feOffset dy="10" />
+                           <feGaussianBlur stdDeviation="7.5" />
+                           <feComposite in2="hardAlpha" operator="out" />
+                           <feColorMatrix type="matrix"
+                              values="0 0 0 0 1 0 0 0 0 0.470937 0 0 0 0 0.233333 0 0 0 0.25 0" />
+                           <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_6169_977" />
+                           <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_6169_977" result="shape" />
+                        </filter>
+                     </defs>
+                  </svg>
+               </li>
+               <li class="footer__social-list-item hidden-link" data-url="https://youtube.com/">
+                  <svg viewBox="0 0 61 52" fill="none">
+                     <g filter="url(#filter10_d_6169_981)">
+                        <path
+                           d="M39.811 5H20.7727C17.5614 5 15 7.59962 15 10.7727V21.0565C15 24.2677 17.5996 26.8291 20.7727 26.8291H39.811C43.0223 26.8291 45.5837 24.2295 45.5837 21.0565V10.7727C45.5837 7.59962 42.9841 5 39.811 5ZM27.0187 20.6359V11.2314L35.0469 15.9337L27.0187 20.6359Z"
+                           fill="currentColor" />
+                     </g>
+                     <defs>
+                        <filter id="filter10_d_6169_981" x="0" y="0" width="60.582" height="51.8291"
+                           filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                           <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                           <feColorMatrix in="SourceAlpha" type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                           <feOffset dy="10" />
+                           <feGaussianBlur stdDeviation="7.5" />
+                           <feComposite in2="hardAlpha" operator="out" />
+                           <feColorMatrix type="matrix"
+                              values="0 0 0 0 1 0 0 0 0 0.470937 0 0 0 0 0.233333 0 0 0 0.25 0" />
+                           <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_6169_981" />
+                           <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_6169_981" result="shape" />
+                        </filter>
+                     </defs>
+                  </svg>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </div>
+</footer>
+   </div>
+   <script src="js/script.min.js?_v=20230120151208"></script>
+   <!--<script src="files/js/animation-elements.min.js?_v=20230120151208"></script>-->
+</body>
+
+</html>
