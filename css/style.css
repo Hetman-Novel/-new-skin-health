@@ -842,47 +842,46 @@ h6 {
 	}
 }*/
 
-/*.custom-checkbox {
-	display: block;
-	margin-bottom: 1em;
-	padding-left: 35px;
-	position: relative;
-	user-select: none;
+.custom-checkbox {
+  display: block;
+  margin-bottom: 1em;
+  position: relative;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
+
 .custom-checkbox__input {
-	//-webkit-appearance: none; /* Chrome */
+  clip: rect(0 0 0 0);
+  height: 1px;
+  position: absolute;
+  overflow: hidden;
+  width: 1px;
+}
 
-/*clip: rect(0 0 0 0);
-	height: 1px;
-	position: absolute;
-	overflow: hidden;
-	width: 1px;
-}*/
-
-/*.custom-checkbox__box {
-	background-color: #fff;
-	box-shadow: 0 0 0 1px #000;
-	height: 18px;
-	margin-left: -35px;
-	margin-top: 1px;
-	position: absolute;
-	top: -1px;
-	width: 18px;
-}*/
+.custom-checkbox__box {
+  background-color: #fff;
+  box-shadow: 0 0 0 1px #8B8B8B;
+  border-radius: 2px;
+  height: 13px;
+  margin-left: -23px;
+  position: absolute;
+  top: 1px;
+  width: 13px;
+}
 
 /* Checked */
 
-/*.custom-checkbox__input:checked + .custom-checkbox__box {
-	box-shadow: 0 0 0 1px #21C677;
-	background-color: #21C677;
-	background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='12' height='10' viewBox='0 0 12 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M11 1.5L4.125 8.5L1 5.31818' stroke='white' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/svg%3e");
-	background-size: 70%;
-	background-repeat: no-repeat;
-	background-position: center;
+.custom-checkbox__input:checked + .custom-checkbox__box {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='9' height='6' viewBox='0 0 9 6' fill='none'%3e%3cpath d='M1 2.5L3.69231 5L8 1' stroke='%238B8B8B' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/svg%3e");
+  background-size: 81%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
 .custom-checkbox.checked .custom-checkbox-text {
-	font-weight: 500;
-}*/
+  font-weight: 500;
+}
 
 /* Focus */
 
@@ -5044,6 +5043,370 @@ main.main.get-skinive {
   text-align: center;
 }
 
+/* Page - Affiliate program */
+
+.affiliate-program-page .first-screen {
+  padding-top: 253px;
+}
+
+.affiliate-program-page .first-screen .n_container {
+  margin-top: 0 !important;
+}
+
+.affiliate-program-page .first-screen__title span {
+  color: #F75005;
+}
+
+.affiliate-program-page .first-screen__text {
+  line-height: 30px;
+  letter-spacing: 0.96px;
+  max-width: 360px;
+}
+
+.affiliate-program-page .first-screen__button {
+  margin-top: 53px;
+  width: 280px;
+}
+
+.affiliate-program-page .first-screen__blocks {
+  margin-top: 64px;
+}
+
+.affiliate-program-page .for-developers-skinive-cloud {
+  padding-bottom: 371px;
+  padding-top: 150px;
+}
+
+.affiliate-program-page .for-developers-skinive-cloud::before {
+  background: #F75005;
+}
+
+.affiliate-program-page .for-developers-skinive-cloud__title {
+  margin-bottom: 35px;
+}
+
+.affiliate-program-page .for-developers-prod-feat__items {
+  margin-top: 65px;
+}
+
+.affiliate-program-page .for-developers-prod-feat__item-title {
+  color: #F75005;
+  display: block;
+  letter-spacing: 0.96px;
+  margin-bottom: 21px;
+  padding-right: 0;
+  text-align: left;
+}
+
+.affiliate-program-page .for-developers-prod-feat__item-title::before {
+  content: "✅";
+  margin-right: 3px;
+}
+
+.affiliate-program-page .for-developers-prod-feat__item-blockText p {
+  font-size: 18px;
+  letter-spacing: 0.18px;
+}
+
+.affiliate-program-page .for-developers-prod-feat__block-text {
+  margin-top: 75px;
+}
+
+.affiliate-program-page .for-developers-prod-feat__block-text p {
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.18px;
+  font-weight: 500;
+}
+
+.affiliate-program-page .for-developers-prod-feat__block-text p strong {
+  font-weight: 700;
+}
+
+.affiliate-program-page .for-developers-prod-feat__block-text p:not(:last-child) {
+  margin-bottom: 28px;
+}
+
+.affiliate-program-page .how-it-works {
+  padding-top: 115px;
+}
+
+.affiliate-program-page .how-it-works__title {
+  font-size: 64px;
+  line-height: 75px;
+}
+
+.affiliate-program-page .how-it-works__blockImage {
+  margin-top: 62px;
+  padding-bottom: 100%;
+  position: relative;
+}
+
+.affiliate-program-page .how-it-works__blockImage img {
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+
+.affiliate-program-page .faq {
+  margin-top: 150px;
+  padding-bottom: 145px;
+}
+
+.affiliate-program-page .faq__title {
+  font-size: 64px;
+  line-height: 75px;
+  margin-bottom: 75px;
+}
+
+.affiliate-program-page .faq .block__title {
+  color: #333;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+  padding-right: 35px;
+  position: relative;
+  text-align: left;
+  width: 100%;
+}
+
+.affiliate-program-page .faq .block__title._active::after {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.affiliate-program-page .faq .block__title::after {
+  content: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='14' height='10' viewBox='0 0 10 6' fill='none'%3e%3cpath d='M1 1L5 5L9 1' stroke='%23333' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/svg%3e");
+  position: absolute;
+  right: 0;
+  transition: 0.3s ease 0s;
+  transform: translateY(-50%);
+  top: 50%;
+}
+
+.affiliate-program-page .faq .for-doctors-more-skin__block {
+  background-color: #FBFBFB;
+  margin-bottom: 35px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.affiliate-program-page .faq .for-doctors-more-skin__blockText p {
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.affiliate-program-page .faq .for-doctors-more-skin__blockText p:first-child {
+  padding-top: 25px;
+}
+
+.affiliate-program-page .faq .for-doctors-more-skin__blockText p:not(:last-child) {
+  margin-bottom: 17px;
+}
+
+.affiliate-program-page .faq .for-doctors-more-skin__blockText p::before {
+  display: none;
+}
+
+.affiliate-program-page .for-patients-skinive-app {
+  background: #F75005;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.affiliate-program-page .for-patients-skinive-app .n_container {
+  max-width: 100% !important;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+}
+
+.affiliate-program-page .for-patients-skinive-app__button {
+  color: #F75005;
+  margin-left: auto;
+  text-transform: uppercase;
+}
+
+.affiliate-program-page .for-patients-skinive-app__button span::after {
+  background-color: #F75005;
+}
+
+.affiliate-program-page .for-patients-skinive-app {
+  margin-bottom: 115px !important;
+}
+
+.lets-make-money-together {
+  border-radius: 90px;
+  background: linear-gradient(280deg, #F75005 -0.43%, #FF7436 116.24%);
+  color: #fff;
+  margin-bottom: 195px;
+  margin-top: 202px;
+  position: relative;
+}
+
+.lets-make-money-together .n_container {
+  padding: 111px 25px 97px;
+  position: relative;
+  z-index: 1;
+}
+
+.lets-make-money-together__title {
+  font-size: 70px;
+  line-height: 75px;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: 3.5px;
+  text-transform: uppercase;
+}
+
+.lets-make-money-together p {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 1.2px;
+  margin: 51px 0 0;
+  max-width: 471px;
+}
+
+.lets-make-money-together__form {
+  border-radius: 36px;
+  background-color: #F9F9F9;
+  padding: 47px 60px 41px;
+  width: 107%;
+}
+
+.lets-make-money-together__form input:not([type=submit]) {
+  border: none;
+  border-bottom: 1px solid #E4E4E4;
+  background-color: transparent;
+  color: #8B8B8B;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0.7px;
+  margin-bottom: 20px;
+  padding-bottom: 3px;
+  transition: border 0.3s ease 0s;
+  outline: none;
+  width: 100%;
+}
+
+.lets-make-money-together__form input:not([type=submit]).describe {
+  padding-top: 12px;
+}
+
+.lets-make-money-together__form input:not([type=submit]):focus {
+  border-color: #FC6969;
+}
+
+.lets-make-money-together__form button,
+.lets-make-money-together__form input[type=submit] {
+  align-items: center;
+  border-radius: 40px;
+  background: #F75005;
+  box-shadow: 0px 20px 30px 0px rgba(255, 120, 60, 0.25);
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  height: 68px;
+  font-weight: 500;
+  padding: 16px 25px 17px 25px;
+  width: 240px;
+}
+
+.lets-make-money-together__form label.custom-checkbox {
+  color: #8B8B8B;
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  margin: 11px 0 38px;
+}
+
+.lets-make-money-together__form label.custom-checkbox a {
+  color: #F75005;
+  text-decoration: underline;
+}
+
+.lets-make-money-together__illustration {
+  left: 0;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+.live-chat {
+  margin-bottom: -27px;
+}
+
+.live-chat p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 40px;
+  letter-spacing: 0.9px;
+  text-align: center;
+}
+
+.live-chat p:nth-child(2) {
+  margin-top: 8px;
+}
+
+.live-chat p a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.live-chat ul {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 1px;
+}
+
+.live-chat ul li {
+  height: 54px;
+  min-width: 54px;
+  padding: 0 15px;
+  position: relative;
+}
+
+.live-chat ul li:not(:last-child)::after {
+  background-color: #93DC9C;
+  content: "";
+  display: block;
+  height: 60px;
+  position: absolute;
+  right: 0;
+  transform: translateY(-50%);
+  top: 50%;
+  width: 2px;
+}
+
+.live-chat ul li a {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.live-chat ul li a svg,
+.live-chat ul li a img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
 /* Footer */
 
 .footer {
@@ -6671,7 +7034,19 @@ a.plyr__control:before {
 }
 
 @media screen and (min-width: 576px) {
+  .custom-checkbox {
+    padding-left: 24px;
+  }
+
+  .custom-checkbox__box {
+    margin-left: -24px;
+  }
+
   .about-fs__illustration.mobile {
+    display: none;
+  }
+
+  .lets-make-money-together__illustration.mobile {
     display: none;
   }
 }
@@ -7336,6 +7711,25 @@ a.plyr__control:before {
     padding-top: 164px;
   }
 
+  .affiliate-program-page .for-developers-prod-feat__items {
+    margin-left: -30px;
+    margin-right: -30px;
+  }
+
+  .affiliate-program-page .for-developers-prod-feat__item {
+    margin-left: 30px;
+    margin-right: 30px;
+    width: calc(33.3333% - 60px);
+  }
+
+  .affiliate-program-page .for-developers-prod-feat__item-title::before {
+    margin-left: -4px;
+  }
+
+  .affiliate-program-page .for-patients-skinive-app__button span::after {
+    display: none;
+  }
+
   .footer {
     border-radius: 90px;
     margin-top: 150px;
@@ -7376,6 +7770,21 @@ a.plyr__control:before {
   .for-doctors-skinivemd__item:nth-child(odd) .for-doctors-skinivemd__wrap-content {
     padding-left: 36px;
     padding-right: 34px;
+  }
+}
+
+@media screen and (min-width: 961px) {
+  .lets-make-money-together__item:nth-child(1) {
+    margin-right: calc(49% - 4px);
+  }
+
+  .lets-make-money-together__item:nth-child(2) {
+    margin-bottom: -170px;
+    margin-left: calc(51% + 4px);
+  }
+
+  .lets-make-money-together__item:nth-child(2) {
+    margin-top: calc(-30% - 2px);
   }
 }
 
@@ -7768,6 +8177,10 @@ a.plyr__control:before {
   .for-developers-prod-feat__item-title {
     padding-right: 9%;
   }
+
+  .affiliate-program-page .first-screen__text {
+    margin-top: -13px;
+  }
 }
 
 @media screen and (min-width: 992px) and (min-width: 1281px) {
@@ -8002,6 +8415,10 @@ a.plyr__control:before {
   .for-developers-prod-feat__item-title {
     padding-right: 3%;
   }
+
+  .lets-make-money-together__item:nth-child(2) {
+    margin-top: calc(-35% - 5px);
+  }
 }
 
 @media screen and (min-width: 1350px) {
@@ -8087,6 +8504,15 @@ a.plyr__control:before {
     margin-right: -38px;
   }
 
+  .lets-make-money-together__title {
+    font-size: 50px;
+    line-height: 55px;
+  }
+
+  .lets-make-money-together__form {
+    max-width: 100%;
+  }
+
   .footer__wrap-logo {
     margin-top: 0;
     width: calc(50% - 50px);
@@ -8101,6 +8527,16 @@ a.plyr__control:before {
     order: -1;
     margin-right: auto;
     margin-top: 22px;
+  }
+}
+
+@media screen and (max-width: 1280.98px) and (max-width: 1200px) {
+  .lets-make-money-together__title {
+    font-size: calc(20px + 30 * ((100vw - 320px) / 880));
+  }
+
+  .lets-make-money-together__title {
+    line-height: calc(30px + 25 * ((100vw - 320px) / 880));
   }
 }
 
@@ -9369,6 +9805,30 @@ a.plyr__control:before {
     margin-top: calc(9px + 18 * ((100vw - 320px) / 880));
   }
 
+  .affiliate-program-page .how-it-works__title {
+    font-size: calc(20px + 44 * ((100vw - 320px) / 880));
+  }
+
+  .affiliate-program-page .how-it-works__title {
+    line-height: calc(30px + 45 * ((100vw - 320px) / 880));
+  }
+
+  .affiliate-program-page .faq__title {
+    font-size: calc(20px + 44 * ((100vw - 320px) / 880));
+  }
+
+  .affiliate-program-page .faq__title {
+    line-height: calc(30px + 45 * ((100vw - 320px) / 880));
+  }
+
+  .lets-make-money-together__title {
+    font-size: calc(20px + 50 * ((100vw - 320px) / 880));
+  }
+
+  .lets-make-money-together__title {
+    line-height: calc(30px + 45 * ((100vw - 320px) / 880));
+  }
+
   .wrap-video {
     height: calc(61px + 343 * ((100vw - 320px) / 880));
   }
@@ -9418,6 +9878,19 @@ a.plyr__control:before {
     margin-left: -15px;
     margin-right: -15px;
   }
+
+  .lets-make-money-together {
+    border-radius: 36px;
+  }
+
+  .lets-make-money-together .n_container {
+    padding: 80px 25px;
+  }
+
+  .lets-make-money-together__title {
+    font-size: 50px;
+    line-height: 55px;
+  }
 }
 
 @media screen and (max-width: 1200.98px) and (max-width: 1200px) {
@@ -9427,6 +9900,14 @@ a.plyr__control:before {
 
   .for-patients-skinive-app .n_container {
     padding-right: calc(20px + 30 * ((100vw - 320px) / 880));
+  }
+
+  .lets-make-money-together__title {
+    font-size: calc(20px + 30 * ((100vw - 320px) / 880));
+  }
+
+  .lets-make-money-together__title {
+    line-height: calc(30px + 25 * ((100vw - 320px) / 880));
   }
 }
 
@@ -9747,6 +10228,10 @@ a.plyr__control:before {
 
   .for-patients-skin-conditions__swiper-pagination .swiper-pagination-bullet {
     margin: 0 12px !important;
+  }
+
+  .affiliate-program-page .first-screen {
+    padding-top: 230px;
   }
 
   .wrap-video {
@@ -10252,6 +10737,20 @@ a.plyr__control:before {
     margin-bottom: 6px;
     margin-top: 43px;
   }
+
+  .affiliate-program-page .first-screen__text {
+    max-width: 270px !important;
+    text-transform: unset;
+  }
+
+  .affiliate-program-page .first-screen__button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .affiliate-program-page .for-patients-skinive-app__button {
+    margin-right: auto;
+  }
 }
 
 @media screen and (max-width: 991.98px) and (max-width: 991.98px) {
@@ -10328,6 +10827,47 @@ a.plyr__control:before {
 
   .for-developers-skinive-cloud__block-number {
     margin-top: calc(10px + 33 * ((100vw - 320px) / 880));
+  }
+}
+
+@media screen and (max-width: 960.98px) {
+  .lets-make-money-together {
+    margin-bottom: 200px;
+  }
+
+  .lets-make-money-together .n_container {
+    padding-bottom: 430px;
+  }
+
+  .lets-make-money-together__item:nth-child(2) {
+    margin-bottom: -500px;
+    margin-top: 45px;
+  }
+
+  .lets-make-money-together__title {
+    font-size: 70px;
+    line-height: 75px;
+    text-align: center;
+  }
+
+  .lets-make-money-together__title br {
+    display: none;
+  }
+
+  .lets-make-money-together p {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 960.98px) and (max-width: 1200px) {
+  .lets-make-money-together__title {
+    font-size: calc(20px + 50 * ((100vw - 320px) / 880));
+  }
+
+  .lets-make-money-together__title {
+    line-height: calc(30px + 45 * ((100vw - 320px) / 880));
   }
 }
 
@@ -11262,6 +11802,92 @@ a.plyr__control:before {
     max-width: 80%;
   }
 
+  .affiliate-program-page .first-screen {
+    padding-top: 180px;
+  }
+
+  .affiliate-program-page .for-developers-skinive-cloud {
+    padding-bottom: 320px;
+  }
+
+  .affiliate-program-page .for-developers-prod-feat {
+    background: none;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .affiliate-program-page .for-developers-prod-feat__title {
+    color: #fff;
+  }
+
+  .affiliate-program-page .for-developers-prod-feat__item {
+    margin-bottom: 25px;
+    margin-top: 0 !important;
+  }
+
+  .affiliate-program-page .for-developers-prod-feat__item-title::before {
+    content: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='23' height='23' viewBox='0 0 16 16' fill='none'%3e%3ccircle opacity='0.05' cx='8' cy='8' r='8' fill='%23F75005'/%3e%3ccircle opacity='0.2' cx='7.99716' cy='8.00107' r='5.09091' fill='%23F75005'/%3e%3ccircle cx='8.00284' cy='7.99893' r='2.90909' fill='%23F75005'/%3e%3c/svg%3e");
+    margin-right: 12px;
+    position: relative;
+    top: 4px;
+  }
+
+  .affiliate-program-page .for-developers-prod-feat__item-blockText {
+    overflow: hidden;
+  }
+
+  .affiliate-program-page .for-developers-prod-feat__item-blockText p {
+    margin: 20px 20px 30px;
+    text-align: left;
+  }
+
+  .affiliate-program-page .for-developers-prod-feat .block__title {
+    background-color: #F9F9F9;
+    border-radius: 38px;
+    height: 60px;
+    display: flex;
+    padding-left: 15px;
+    padding-right: 60px;
+    position: relative;
+    width: 100%;
+  }
+
+  .affiliate-program-page .for-developers-prod-feat .block__title._active::after {
+    transform: translateY(-65%) rotate(180deg);
+  }
+
+  .affiliate-program-page .for-developers-prod-feat .block__title::after {
+    content: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='12' viewBox='0 0 10 6' fill='none'%3e%3cpath d='M1 1L5 5L9 1' stroke='%23F75005' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/svg%3e");
+    position: absolute;
+    right: 25px;
+    transition: 0.3s ease 0s;
+    transform: translateY(-50%);
+    top: 51%;
+  }
+
+  .affiliate-program-page .for-developers-prod-feat .block__title .for-developers-prod-feat__item-title {
+    margin-bottom: auto;
+    margin-top: auto;
+    text-align: left;
+  }
+
+  .affiliate-program-page .how-it-works {
+    padding-top: 50px;
+  }
+
+  .affiliate-program-page .how-it-works__blockImage {
+    margin-top: 45px;
+  }
+
+  .affiliate-program-page .for-patients-skinive-app {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .live-chat {
+    margin-bottom: 100px;
+  }
+
   .footer__item {
     width: 100%;
   }
@@ -11729,6 +12355,39 @@ a.plyr__control:before {
   .for-developers-skinive-cloud__image {
     -o-object-position: 42% 0;
        object-position: 42% 0;
+  }
+
+  .affiliate-program-page .first-screen {
+    padding-top: 160px;
+  }
+
+  .affiliate-program-page .for-developers-prod-feat__item {
+    margin-bottom: 5px;
+  }
+
+  .live-chat p {
+    line-height: 32px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .live-chat p:nth-child(2) {
+    margin-top: 16px;
+  }
+
+  .live-chat ul {
+    margin-top: 8px;
+  }
+
+  .live-chat ul li {
+    height: 40px;
+    min-width: 40px;
+    padding: 0 11px;
+  }
+
+  .live-chat ul li:not(:last-child)::after {
+    height: 45px;
   }
 
   .plyr__control.plyr__control--overlaid {
@@ -12228,6 +12887,17 @@ a.plyr__control:before {
 }
 
 @media screen and (max-width: 575.98px) {
+  .custom-checkbox {
+    margin-bottom: 226px;
+    margin-top: 70px;
+    text-indent: 23px;
+  }
+
+  .custom-checkbox__box {
+    height: 11px;
+    width: 11px;
+  }
+
   .popup__content {
     max-width: 100%;
   }
@@ -12325,6 +12995,240 @@ a.plyr__control:before {
   .for-developers-our-skinive__wrapIconPartner {
     margin: 3px;
     width: calc(33.3333% - 6px);
+  }
+
+  .affiliate-program-page .first-screen {
+    padding-top: 139px;
+  }
+
+  .affiliate-program-page .first-screen__text {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 230px !important;
+  }
+
+  .affiliate-program-page .for-developers-skinive-cloud {
+    padding-bottom: 170px;
+    padding-top: 41px;
+  }
+
+  .affiliate-program-page .for-developers-skinive-cloud__title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 24px;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .affiliate-program-page .for-developers-skinive-cloud__blockText p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .affiliate-program-page .for-developers-prod-feat {
+    padding-bottom: 55px;
+    margin-top: -175px;
+  }
+
+  .affiliate-program-page .for-developers-prod-feat__title {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    max-width: 278px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .affiliate-program-page .for-developers-prod-feat__items {
+    margin-top: 29px;
+  }
+
+  .affiliate-program-page .for-developers-prod-feat__item-title {
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+  }
+
+  .affiliate-program-page .for-developers-prod-feat__item-title::before {
+    content: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' fill='none'%3e%3ccircle opacity='0.05' cx='8' cy='8' r='8' fill='%23F75005'/%3e%3ccircle opacity='0.2' cx='7.99716' cy='8.00107' r='5.09091' fill='%23F75005'/%3e%3ccircle cx='8.00284' cy='7.99893' r='2.90909' fill='%23F75005'/%3e%3c/svg%3e");
+    top: 3px;
+  }
+
+  .affiliate-program-page .for-developers-prod-feat__item-blockText p {
+    font-size: 15px;
+    margin: 15px 24px 25px;
+    text-align: left;
+  }
+
+  .affiliate-program-page .for-developers-prod-feat .block__title {
+    padding-left: 20px;
+    padding-right: 40px;
+  }
+
+  .affiliate-program-page .for-developers-prod-feat .block__title._active::after {
+    transform: translateY(-48%) rotate(180deg);
+  }
+
+  .affiliate-program-page .for-developers-prod-feat .block__title::after {
+    content: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6' fill='none'%3e%3cpath d='M1 1L5 5L9 1' stroke='%23F75005' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/svg%3e");
+    right: 20px;
+    top: 48%;
+  }
+
+  .affiliate-program-page .for-developers-prod-feat__block-text {
+    margin-top: 22px;
+  }
+
+  .affiliate-program-page .for-developers-prod-feat__block-text p {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .affiliate-program-page .how-it-works {
+    padding-top: 0;
+  }
+
+  .affiliate-program-page .how-it-works__title {
+    text-align: center;
+  }
+
+  .affiliate-program-page .how-it-works__blockImage {
+    margin-top: 15px;
+    padding-bottom: calc(48% - 2px);
+  }
+
+  .affiliate-program-page .how-it-works__blockImage img {
+    border-radius: 21px;
+    -o-object-position: 0 44%;
+       object-position: 0 44%;
+  }
+
+  .affiliate-program-page .faq {
+    padding-bottom: 94px;
+  }
+
+  .affiliate-program-page .faq__title {
+    margin-bottom: 18px;
+    text-align: center;
+  }
+
+  .affiliate-program-page .faq .block__title {
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.7px;
+    padding-right: 20px;
+  }
+
+  .affiliate-program-page .faq .block__title::after {
+    content: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='10' height='7' viewBox='0 0 10 7' fill='none'%3e%3cpath d='M1 1L5 5.6747L9 1' stroke='%23F75005' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/svg%3e");
+  }
+
+  .affiliate-program-page .faq .for-doctors-more-skin__block {
+    margin-bottom: 8px;
+    padding: 19px 22px;
+  }
+
+  .affiliate-program-page .faq .for-doctors-more-skin__blockText p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .affiliate-program-page .faq .for-doctors-more-skin__blockText p:first-child {
+    padding-top: 20px;
+  }
+
+  .affiliate-program-page .faq .for-doctors-more-skin__blockText p:not(:last-child) {
+    margin-bottom: 15px;
+  }
+
+  .affiliate-program-page .for-patients-skinive-app {
+    margin-bottom: 34px !important;
+  }
+
+  .lets-make-money-together {
+    margin-bottom: 226px;
+    margin-top: 70px;
+  }
+
+  .lets-make-money-together .n_container {
+    padding: 36px 20px 388px;
+  }
+
+  .lets-make-money-together__item:nth-child(2) {
+    margin-bottom: -555px;
+    margin-top: 27px;
+  }
+
+  .lets-make-money-together__title {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0.28px;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: unset;
+  }
+
+  .lets-make-money-together__title br {
+    display: none;
+  }
+
+  .lets-make-money-together p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+  }
+
+  .lets-make-money-together__form {
+    padding: 32px 35px 24px;
+  }
+
+  .lets-make-money-together__form input:not([type=submit]) {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 23px;
+    padding-bottom: 9px;
+  }
+
+  .lets-make-money-together__form input:not([type=submit]).describe {
+    padding-top: 24px;
+  }
+
+  .lets-make-money-together__form button,
+  .lets-make-money-together__form input[type=submit] {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.28px;
+    height: 60px;
+    width: 262px;
+  }
+
+  .lets-make-money-together__form label.custom-checkbox {
+    margin: -3px 0 19px;
+  }
+
+  .lets-make-money-together__illustration.dekstop {
+    display: none;
+  }
+
+  .live-chat {
+    margin-bottom: 66px;
   }
 }
 
@@ -12429,6 +13333,11 @@ a.plyr__control:before {
   .for-developers-skinive-cloud__image {
     -o-object-position: 40% 0;
        object-position: 40% 0;
+  }
+
+  .affiliate-program-page .for-patients-skinive-app {
+    padding-left: 20px;
+    padding-right: 30px;
   }
 }
 
@@ -12553,6 +13462,15 @@ a.plyr__control:before {
 
   .for-developers-our-skinive__wrapIconPartner {
     width: calc(50% - 6px);
+  }
+
+  .affiliate-program-page .first-screen__button {
+    width: 100%;
+  }
+
+  .lets-make-money-together__form button,
+  .lets-make-money-together__form input[type=submit] {
+    width: 100%;
   }
 
   .footer__social-list-item svg {
